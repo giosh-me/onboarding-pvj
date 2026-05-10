@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: 'PVJets — SDR Onboarding',
   description: 'Internal onboarding for PVJets SDRs',
   robots: { index: false, follow: false },
+  icons: {
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
