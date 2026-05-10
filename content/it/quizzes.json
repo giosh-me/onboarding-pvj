@@ -274,7 +274,96 @@
       "source": "company_profile.pdf p.18"
     }
   ],
-  "charter-membership": [],
+  "charter-membership": [
+    {
+      "id": "q-cm-001",
+      "type": "mcq",
+      "question": "Qual è la differenza chiave tra On-Demand Charter e PVJets Club?",
+      "options": [
+        "On-Demand è pay-per-flight senza impegno; Club è membership con deposito che richiede 6+ mesi di frequenza",
+        "On-Demand è gratis, Club è a pagamento",
+        "On-Demand è solo per executives, Club solo per HNWI",
+        "On-Demand è per voli interni, Club per intercontinentali"
+      ],
+      "correct_index": 0,
+      "explanation": "On-Demand = pay-per-flight, no deposit, real-time pricing. Club = deposit-based, riservato a frequent flyer da 6+ mesi.",
+      "source": "company_profile.pdf p.7-8"
+    },
+    {
+      "id": "q-cm-002",
+      "type": "mcq",
+      "question": "Quanti aeromobili sono accessibili tramite il modello On-Demand Charter di PVJets?",
+      "options": ["3.600+", "100", "500", "10.000+"],
+      "correct_index": 0,
+      "explanation": "Il company profile cita esplicitamente 3.600+ aircraft accessibili worldwide via On-Demand.",
+      "source": "company_profile.pdf p.8"
+    },
+    {
+      "id": "q-cm-003",
+      "type": "mcq",
+      "question": "Un cliente nuovo arriva e chiede 'voglio entrare nel Club'. Cosa rispondi?",
+      "options": [
+        "Il Club è riservato a clienti già frequent flyer da 6+ mesi. Possiamo iniziare con On-Demand e valutare in seguito.",
+        "Certamente, le mando subito il contratto.",
+        "Mi spiace, non possiamo aiutarla.",
+        "Il Club costa 50.000 euro l'anno, vuole procedere?"
+      ],
+      "correct_index": 0,
+      "explanation": "Il Club non è acquistabile dal day-one. È un programma post-frequent-flyer. La risposta corretta apre con On-Demand.",
+      "source": "company_profile.pdf p.8"
+    },
+    {
+      "id": "q-cm-004",
+      "type": "mcq",
+      "question": "Quale di questi è un benefit ESCLUSIVO di PVJets Club rispetto a On-Demand?",
+      "options": [
+        "Slot garantiti in peak season",
+        "Real-time pricing",
+        "Accesso a 3.600+ aircraft",
+        "Niente deposito"
+      ],
+      "correct_index": 0,
+      "explanation": "Solo Club ha 'guaranteed peak season access'. Su On-Demand peak season è 'subject to slots'.",
+      "source": "company_profile.pdf p.9"
+    },
+    {
+      "id": "q-cm-005",
+      "type": "mcq",
+      "question": "Cos'è un Empty Leg?",
+      "options": [
+        "Volo di riposizionamento già programmato venduto a tariffa ridotta",
+        "Volo per pax con disabilità",
+        "Una tratta cancellata",
+        "Un volo al di sotto della capacità minima"
+      ],
+      "correct_index": 0,
+      "explanation": "Empty Leg = volo di riposizionamento (l'aircraft deve tornare alla base o a una destinazione successiva) venduto a tariffa scontata per non andare vuoto.",
+      "source": "company_profile.pdf p.5"
+    },
+    {
+      "id": "q-cm-006",
+      "type": "mcq",
+      "question": "Quale di questi tre segnali NON è un indicatore che un cliente On-Demand è candidato Club?",
+      "options": [
+        "Il cliente chiede continuamente sconti aggressivi",
+        "Volume alto: 3+ voli in 3-4 mesi",
+        "Rotte ricorrenti e prevedibili",
+        "Sensibilità a benefit non-prezzo (concierge, catering)"
+      ],
+      "correct_index": 0,
+      "explanation": "Un cliente che chiede sconti aggressivi è SENSIBILE al prezzo, quindi NON è ideale per Club (che è premium). I tre segnali Club sono volume, prevedibilità e valorizzazione del servizio.",
+      "source": "company_profile.pdf p.9"
+    },
+    {
+      "id": "q-cm-007",
+      "type": "mcq",
+      "question": "Su On-Demand, qual è la cancellation policy?",
+      "options": ["Strict", "Flexible", "Free", "Refundable"],
+      "correct_index": 0,
+      "explanation": "On-Demand ha cancellation 'strict'. Solo Club ha cancellation 'flexible'.",
+      "source": "company_profile.pdf p.9"
+    }
+  ],
   "fleet": [],
   "sustainability": [],
   "private-aviation-market": [],

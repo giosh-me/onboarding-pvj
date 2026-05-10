@@ -209,7 +209,86 @@
       "tags": ["seasonal"]
     }
   ],
-  "charter-membership": [],
+  "charter-membership": [
+    {
+      "id": "f-cm-001",
+      "front": "On-Demand Charter",
+      "back": "Modello pay-per-flight di PVJets. Niente impegni, niente deposito, real-time pricing, accesso a 3.600+ aircraft. Default per nuovi clienti.",
+      "tags": ["models", "commercial"]
+    },
+    {
+      "id": "f-cm-002",
+      "front": "PVJets Club",
+      "back": "Programma membership riservato a clienti frequent flyer da 6+ mesi. Deposit-based credit voucher, slot garantiti, concierge dedicato, eventi esclusivi.",
+      "tags": ["models", "commercial", "loyalty"]
+    },
+    {
+      "id": "f-cm-003",
+      "front": "Pay-per-flight",
+      "back": "Modello di pricing On-Demand: paghi un volo alla volta, senza pre-pagamenti né abbonamenti. Quotazione real-time per ogni booking.",
+      "tags": ["pricing"]
+    },
+    {
+      "id": "f-cm-004",
+      "front": "Deposit-based credit voucher",
+      "back": "Modello di pricing PVJets Club: il cliente versa un deposito anticipato che viene scalato volo per volo. È un pre-pagato.",
+      "tags": ["pricing"]
+    },
+    {
+      "id": "f-cm-005",
+      "front": "Empty Leg",
+      "back": "Volo di riposizionamento già programmato (l'aircraft deve tornare/raggiungere una destinazione successiva) venduto a tariffa ridotta. Ottima opzione per clienti budget-sensitive con flessibilità di date.",
+      "tags": ["services", "pricing"]
+    },
+    {
+      "id": "f-cm-006",
+      "front": "Frequent flyer (PVJets)",
+      "back": "Cliente che ha volato regolarmente con PVJets per almeno 6 mesi. È il prerequisito per essere invitato in PVJets Club.",
+      "tags": ["loyalty"]
+    },
+    {
+      "id": "f-cm-007",
+      "front": "Guaranteed peak season slots",
+      "back": "Benefit esclusivo di PVJets Club: accesso garantito anche in alta stagione (Mykonos luglio, Innsbruck Natale, ecc.). On-Demand è 'subject to slots'.",
+      "tags": ["club", "benefits"]
+    },
+    {
+      "id": "f-cm-008",
+      "front": "VIP concierge support",
+      "back": "Benefit Club: concierge dedicato 24/7 con priority handling. Su On-Demand niente concierge dedicato.",
+      "tags": ["club", "benefits"]
+    },
+    {
+      "id": "f-cm-009",
+      "front": "Premium catering",
+      "back": "Benefit Club: catering premium incluso vs catering standard On-Demand.",
+      "tags": ["club", "benefits"]
+    },
+    {
+      "id": "f-cm-010",
+      "front": "Round-trip discount",
+      "back": "Benefit Club: sconto sui voli round-trip vs prezzo pieno per ogni leg su On-Demand.",
+      "tags": ["club", "benefits"]
+    },
+    {
+      "id": "f-cm-011",
+      "front": "Cancellation strict vs flexible",
+      "back": "On-Demand: cancellation strict (penali alte). Club: cancellation flexible. È uno dei differenziatori più importanti del Club.",
+      "tags": ["operations"]
+    },
+    {
+      "id": "f-cm-012",
+      "front": "I 3 segnali di candidato Club",
+      "back": "1) Volume: 3+ voli in 3-4 mesi · 2) Prevedibilità: rotte ricorrenti, pax stabili · 3) Sensibilità a benefit non-prezzo (concierge, catering, transfer).",
+      "tags": ["sdr", "process"]
+    },
+    {
+      "id": "f-cm-013",
+      "front": "Aircraft upgrade",
+      "back": "Su Club: 'available when possible' — se l'aircraft preferito non è disponibile, upgrade gratuito a una categoria superiore. Su On-Demand: non garantito.",
+      "tags": ["club", "benefits"]
+    }
+  ],
   "fleet": [],
   "sustainability": [],
   "private-aviation-market": [],
