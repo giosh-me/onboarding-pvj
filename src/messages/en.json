@@ -11,5 +11,62 @@
   },
   "Footer": {
     "copyright": "PVJets — internal use"
+  },
+  "Dashboard": {
+    "title": "SDR Onboarding",
+    "subtitle": "11 modules, ~1 day. Start from module 1 or resume where you left off."
+  },
+  "Lesson": {
+    "moduleNumber": "Module {n}",
+    "estimated": "Estimated time: {n} min",
+    "back": "← Dashboard",
+    "backToLesson": "← Lesson",
+    "backToQuiz": "← Quiz",
+    "toQuiz": "Go to quiz →",
+    "toFlashcards": "Go to flashcards →",
+    "nextModule": "Next module →",
+    "toSummary": "See summary →"
+  },
+  "Quiz": {
+    "next": "Next",
+    "finish": "See result",
+    "retryWrong": "Retry the wrong ones",
+    "emptyQuiz": "Quiz not available yet for this module."
+  },
+  "Flashcards": {
+    "knew": "Knew it",
+    "didntKnow": "Didn't know",
+    "remaining": "Remaining: {n}",
+    "done": "Deck completed",
+    "reshuffle": "Reshuffle and retry",
+    "empty": "No flashcards for this module."
+  },
+  "Reset": {
+    "button": "Start over",
+    "title": "Restart from scratch?",
+    "body": "All your progress (lessons read, quiz scores, flashcards) will be wiped. This cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Yes, restart"
+  },
+  "Glossary": {
+    "title": "Glossary",
+    "subtitle": "All flashcards from every module, searchable. Use as a quick reference.",
+    "searchPlaceholder": "Search a term…",
+    "count": "{n} entries"
+  },
+  "Summary": {
+    "completed": "Onboarding complete",
+    "namePlaceholder": "Your name (optional)",
+    "totalTime": "Total time: {time}",
+    "modulesTitle": "Modules completed",
+    "colModule": "Module",
+    "colScore": "Score",
+    "colAttempts": "Attempts",
+    "reviewTitle": "Flashcards to review ({n})",
+    "reviewLink": "Open →",
+    "flashcardReviewEmpty": "No flashcards marked 'didn't know'. You memorised everything.",
+    "lockedTitle": "Summary locked",
+    "lockedBody": "You completed {done}/{total} modules. Finish the journey to unlock the summary.",
+    "print": "Print summary"
   }
 }

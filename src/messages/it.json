@@ -11,5 +11,62 @@
   },
   "Footer": {
     "copyright": "PVJets — uso interno"
+  },
+  "Dashboard": {
+    "title": "Onboarding SDR",
+    "subtitle": "11 moduli, ~1 giornata. Inizia dal modulo 1 o riprendi da dove hai lasciato."
+  },
+  "Lesson": {
+    "moduleNumber": "Modulo {n}",
+    "estimated": "Tempo stimato: {n} min",
+    "back": "← Dashboard",
+    "backToLesson": "← Lezione",
+    "backToQuiz": "← Quiz",
+    "toQuiz": "Vai al quiz →",
+    "toFlashcards": "Vai alle flashcard →",
+    "nextModule": "Modulo successivo →",
+    "toSummary": "Vedi sintesi →"
+  },
+  "Quiz": {
+    "next": "Successiva",
+    "finish": "Vedi risultato",
+    "retryWrong": "Riprova le sbagliate",
+    "emptyQuiz": "Quiz non ancora disponibile per questo modulo."
+  },
+  "Flashcards": {
+    "knew": "Sapevo",
+    "didntKnow": "Non sapevo",
+    "remaining": "Rimaste: {n}",
+    "done": "Mazzo completato",
+    "reshuffle": "Rimescola e riprova",
+    "empty": "Nessuna flashcard per questo modulo."
+  },
+  "Reset": {
+    "button": "Ricomincia da capo",
+    "title": "Sicuro di voler ricominciare?",
+    "body": "Tutto il tuo progresso (lezioni lette, score quiz, flashcard) sarà cancellato. Non si può annullare.",
+    "cancel": "Annulla",
+    "confirm": "Sì, ricomincia"
+  },
+  "Glossary": {
+    "title": "Glossario",
+    "subtitle": "Tutte le flashcard di tutti i moduli, ricercabili. Usalo come riferimento rapido.",
+    "searchPlaceholder": "Cerca un termine…",
+    "count": "{n} voci"
+  },
+  "Summary": {
+    "completed": "Onboarding completato",
+    "namePlaceholder": "Il tuo nome (opzionale)",
+    "totalTime": "Tempo totale: {time}",
+    "modulesTitle": "Moduli completati",
+    "colModule": "Modulo",
+    "colScore": "Score",
+    "colAttempts": "Tentativi",
+    "reviewTitle": "Flashcard da ripassare ({n})",
+    "reviewLink": "Apri →",
+    "flashcardReviewEmpty": "Nessuna flashcard segnata come 'Non sapevo'. Hai memorizzato tutto.",
+    "lockedTitle": "Sintesi bloccata",
+    "lockedBody": "Hai completato {done}/{total} moduli. Finisci il percorso per sbloccare la sintesi.",
+    "print": "Stampa sintesi"
   }
 }
