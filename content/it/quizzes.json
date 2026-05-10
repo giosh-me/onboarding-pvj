@@ -364,7 +364,105 @@
       "source": "company_profile.pdf p.9"
     }
   ],
-  "fleet": [],
+  "fleet": [
+    {
+      "id": "q-fl-001",
+      "type": "mcq",
+      "question": "Quante categorie di aircraft definisce PVJets nel company profile?",
+      "options": ["6", "3", "8", "10"],
+      "correct_index": 0,
+      "explanation": "Sei categorie: Super Light, Midsize, Super Midsize, Heavy Jet, Ultra Long Range, VIP Airliner.",
+      "source": "company_profile.pdf p.10-16"
+    },
+    {
+      "id": "q-fl-002",
+      "type": "mcq",
+      "question": "Quale categoria copre tipicamente un Roma-Mykonos (~2 ore di volo)?",
+      "options": ["Super Light Jet", "Heavy Jet", "Ultra Long Range", "VIP Airliner"],
+      "correct_index": 0,
+      "explanation": "Super Light = 2-3 ore di range, 6-8 pax. È la categoria più richiesta per le rotte intra-Europa medie.",
+      "source": "company_profile.pdf p.11"
+    },
+    {
+      "id": "q-fl-003",
+      "type": "mcq",
+      "question": "Quale è la categoria PVJets con range massimo di 13.000 km e 14-16 pax?",
+      "options": ["Ultra Long Range", "Heavy Jet", "VIP Airliner", "Super Midsize"],
+      "correct_index": 0,
+      "explanation": "Ultra Long Range = 13.000 km, 14-16 pax. Esempi: Falcon 8X, Global 7500, G650ER. Categoria intercontinentale non-stop.",
+      "source": "company_profile.pdf p.15"
+    },
+    {
+      "id": "q-fl-004",
+      "type": "mcq",
+      "question": "Per un Parigi → New York con 8 pax, quale categoria si propone tipicamente?",
+      "options": [
+        "Heavy Jet (transatlantico classico) o Ultra Long Range non-stop",
+        "Super Light, è abbastanza",
+        "VIP Airliner, è obbligatorio",
+        "Helicopter transfer"
+      ],
+      "correct_index": 0,
+      "explanation": "PR-NY è la classica transatlantica: Heavy Jet (5-7h, 10-12 pax) basta. Ultra Long Range si propone se si vuole più cabina o per non-stop garantito.",
+      "source": "company_profile.pdf p.14-15"
+    },
+    {
+      "id": "q-fl-005",
+      "type": "mcq",
+      "question": "Cosa significa 'BBJ' nel mondo dei VIP Airliner?",
+      "options": [
+        "Boeing Business Jet — un Boeing di linea convertito a configurazione privata",
+        "Big Body Jet — categoria di aircraft pesanti",
+        "Best Branded Jet — premio dell'industria",
+        "Boutique Business Jet — un sottosegmento dei midsize"
+      ],
+      "correct_index": 0,
+      "explanation": "BBJ = Boeing Business Jet. Aerei di linea (es. 737) riconvertiti con cabina privata di lusso. Stessa logica dell'ACJ (Airbus Corporate Jet).",
+      "source": "company_profile.pdf p.16"
+    },
+    {
+      "id": "q-fl-006",
+      "type": "mcq",
+      "question": "Un cliente chiede 'consigliate Citation X o Challenger 300?' Cosa rispondi?",
+      "options": [
+        "Sono entrambi Super Midsize. Lascio che il broker valuti disponibilità e prezzo del giorno",
+        "Sicuramente Challenger 300, è migliore",
+        "Citation X, è più veloce",
+        "Sono Super Light, vanno bene per voli brevi"
+      ],
+      "correct_index": 0,
+      "explanation": "Citation X e Challenger 300 sono entrambi nella categoria Super Midsize Jet. La scelta tra modelli specifici dipende da disponibilità/prezzo del momento — la decide il broker.",
+      "source": "company_profile.pdf p.13"
+    },
+    {
+      "id": "q-fl-007",
+      "type": "mcq",
+      "question": "Per un group charter di 18 persone, qual è la categoria più appropriata?",
+      "options": [
+        "VIP Airliner",
+        "Super Midsize",
+        "Ultra Long Range (massimo 14-16 pax)",
+        "Helicopter"
+      ],
+      "correct_index": 0,
+      "explanation": "VIP Airliner = 20 pax. È la categoria pensata per group charter (delegazioni sportive, team aziendali grandi, cori, ecc.). Ultra Long Range max è 14-16.",
+      "source": "company_profile.pdf p.16"
+    },
+    {
+      "id": "q-fl-008",
+      "type": "mcq",
+      "question": "Un cliente chiede 'volo Nizza → Monaco per 4 persone, ore 14:00, sono già a Nizza'. Cosa proponi?",
+      "options": [
+        "Helicopter Transfer (5 minuti contro 1 ora di traffico)",
+        "Super Light Jet",
+        "Helicopter di gruppo, ma minimo 8 pax",
+        "Train, è più ecologico"
+      ],
+      "correct_index": 0,
+      "explanation": "Tratte cortissime urbane (Nice-Monaco, Linate-Lugano, ecc.) si fanno in heli. È più rapido e PVJets ha l'Helicopter Transfer come servizio dedicato.",
+      "source": "company_profile.pdf p.5"
+    }
+  ],
   "sustainability": [],
   "private-aviation-market": [],
   "aircraft-types": [],

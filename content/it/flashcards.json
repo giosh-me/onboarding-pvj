@@ -289,7 +289,92 @@
       "tags": ["club", "benefits"]
     }
   ],
-  "fleet": [],
+  "fleet": [
+    {
+      "id": "f-fl-001",
+      "front": "Super Light Jet",
+      "back": "6-8 pax · 2-3h volo · 3.537 km · 800 km/h. Esempi: Citation XLS, Learjet 75, Pilatus PC-24, Phenom 300, Learjet 45. Categoria più usata per rotte intra-Europa medie.",
+      "tags": ["fleet", "categories"]
+    },
+    {
+      "id": "f-fl-002",
+      "front": "Midsize Jet",
+      "back": "7-9 pax · 3-4h volo · 4.074 km · 828 km/h. Esempi: Hawker 750XP, Praetor 500, Citation VI, Learjet 60XR, Hawker 800. Per rotte Europa estesa (Mosca, Marrakech).",
+      "tags": ["fleet", "categories"]
+    },
+    {
+      "id": "f-fl-003",
+      "front": "Super Midsize Jet",
+      "back": "8-10 pax · 4-5h volo · 4.708 km · 972 km/h. Esempi: Challenger 300, Gulfstream G280, Praetor 600, Citation Latitude, Citation X. Categoria preferita di molti executive.",
+      "tags": ["fleet", "categories"]
+    },
+    {
+      "id": "f-fl-004",
+      "front": "Heavy Jet",
+      "back": "10-12 pax · 5-7h volo · 7.408 km · 900 km/h. Esempi: Challenger 604/850, Legacy 650, Falcon 2000LX, Gulfstream G-IV. Categoria transatlantica classica.",
+      "tags": ["fleet", "categories"]
+    },
+    {
+      "id": "f-fl-005",
+      "front": "Ultra Long Range",
+      "back": "14-16 pax · 8h+ volo · 13.000 km · 975 km/h. Esempi: Falcon 8X, Global 7500, Global Express XRS, G650ER, G700. Categoria top intercontinentale.",
+      "tags": ["fleet", "categories"]
+    },
+    {
+      "id": "f-fl-006",
+      "front": "VIP Airliner",
+      "back": "20 pax · 6-8h · 10.000 km · 898 km/h. Esempi: Lineage 1000, Boeing BBJ, BBJ Max 7, Airbus ACJ 319/320. Aerei di linea convertiti, per group charter grandi.",
+      "tags": ["fleet", "categories"]
+    },
+    {
+      "id": "f-fl-007",
+      "front": "Citation XLS",
+      "back": "Aircraft Super Light tipico. 6-8 pax, raggio ~3.500 km. Una delle scelte più frequenti per Milano-Mykonos / Roma-Marrakech.",
+      "tags": ["fleet", "models"]
+    },
+    {
+      "id": "f-fl-008",
+      "front": "Challenger 300",
+      "back": "Aircraft Super Midsize molto popolare. 8-10 pax, ~4.700 km, 972 km/h. Cabina ampia, ottimo per executive.",
+      "tags": ["fleet", "models"]
+    },
+    {
+      "id": "f-fl-009",
+      "front": "Falcon 2000LX",
+      "back": "Aircraft Heavy Jet. 10-12 pax, ~7.400 km. Tipico aircraft transatlantico, prodotto da Dassault.",
+      "tags": ["fleet", "models"]
+    },
+    {
+      "id": "f-fl-010",
+      "front": "Gulfstream G650ER",
+      "back": "Aircraft Ultra Long Range top di gamma. 14-16 pax, 13.000 km, 975 km/h. Una delle scelte più richieste tra UHNWI per intercontinentali non-stop.",
+      "tags": ["fleet", "models"]
+    },
+    {
+      "id": "f-fl-011",
+      "front": "Global 7500",
+      "back": "Aircraft Ultra Long Range Bombardier. 14-16 pax, 13.000+ km. Concorrente diretto del Gulfstream G650ER nel segmento top.",
+      "tags": ["fleet", "models"]
+    },
+    {
+      "id": "f-fl-012",
+      "front": "BBJ (Boeing Business Jet)",
+      "back": "Boeing di linea (es. 737) convertito in aircraft privato di lusso. Cabina formato airliner con allestimento bespoke. Per group charter molto grandi.",
+      "tags": ["fleet", "models"]
+    },
+    {
+      "id": "f-fl-013",
+      "front": "ACJ (Airbus Corporate Jet)",
+      "back": "Equivalente Airbus del BBJ. ACJ 319, ACJ 320 sono le varianti più comuni. 20 pax in configurazione VIP.",
+      "tags": ["fleet", "models"]
+    },
+    {
+      "id": "f-fl-014",
+      "front": "Helicopter Transfer",
+      "back": "Servizio PVJets per tratte molto brevi (Nizza-Monaco, Linate-Lugano, eliporti privati). Modelli e tariffe gestite case-by-case col broker.",
+      "tags": ["services"]
+    }
+  ],
   "sustainability": [],
   "private-aviation-market": [],
   "aircraft-types": [],
