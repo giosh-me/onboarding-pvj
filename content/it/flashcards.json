@@ -559,7 +559,140 @@
       "tags": ["market", "vocabulary"]
     }
   ],
-  "aircraft-types": [],
+  "aircraft-types": [
+    {
+      "id": "f-at-001",
+      "front": "VLJ (Very Light Jet)",
+      "back": "Categoria entry-level. 4-6 pax, range ~2.000-2.500 km, costo orario basso. Esempi: Phenom 100, Citation Mustang, HondaJet, Eclipse 550. PVJets non li promuove ma possono comparire.",
+      "tags": ["aircraft", "categories"]
+    },
+    {
+      "id": "f-at-002",
+      "front": "Phenom 300",
+      "back": "Super Light Jet best-seller. 6-7 pax, ~3.700 km. Concorrente diretto del Citation XLS. Leader di mercato per ore volate.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-003",
+      "front": "Citation XLS / XLS+",
+      "back": "Super Light Jet. 6-8 pax, 3.500-3.700 km. Workhorse intra-Europa qualunque rotta.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-004",
+      "front": "Pilatus PC-24",
+      "back": "Super Light Jet versatile. Pista corta o non asfaltata possibile. Ideale per accessi alpini / destinazioni rural.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-005",
+      "front": "Hawker 800/850XP/900XP",
+      "back": "Famiglia Midsize popolare. 7-9 pax, ~4.000-4.700 km. Compromesso costo/cabina per voli 3-4h.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-006",
+      "front": "Praetor 500 / 600",
+      "back": "Famiglia Embraer (successore Legacy 450/500). Praetor 500 = Midsize (4.800 km). Praetor 600 = Super-mid con range esteso (7.400 km, invade territorio Heavy).",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-007",
+      "front": "Challenger 300 / 350",
+      "back": "Bombardier Super Midsize, best-seller assoluto del segmento. 8-9 pax, 5.700 km. Ottimo per Parigi-Dubai e rotte simili.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-008",
+      "front": "Citation Latitude / Longitude",
+      "back": "Super Midsize Cessna. Cabina alta (stand-up). 8-12 pax. Latitude ~5.300 km, Longitude ~6.500 km.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-009",
+      "front": "Falcon 2000LX / LXS",
+      "back": "Heavy Jet Dassault. 10 pax, 7.400-7.700 km. Cabina ampia tipica Falcon. Preferito su Europa-USA East Coast.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-010",
+      "front": "Challenger 605 / 650",
+      "back": "Heavy Jet Bombardier. 10-12 pax, 7.400 km. Cabina ottimamente allestita, popolare in flotte fractional (NetJets).",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-011",
+      "front": "Gulfstream G450",
+      "back": "Heavy Jet con range esteso. 13-16 pax, 8.000 km. Versione 'compatta' della famiglia Gulfstream.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-012",
+      "front": "Gulfstream G650 / G650ER / G700",
+      "back": "Lo standard top del settore Ultra Long Range. 14-19 pax, 11.000-13.000 km. Milano-Sydney non-stop tecnicamente possibile sul G650ER.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-013",
+      "front": "Bombardier Global 6000 / 7500",
+      "back": "Concorrente diretto del G650 nel ULR. Global 7500 = 4 zone cabina, ~13.000 km. Richiestissimo tra UHNWI.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-014",
+      "front": "Falcon 8X",
+      "back": "ULR Dassault, distintivo per i 3 motori (ridondanza extra in volo oceanico). 12-16 pax, 11.900 km. Tipico tra UHNWI europei.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-015",
+      "front": "Boeing BBJ",
+      "back": "Boeing Business Jet — un 737 commerciale convertito a configurazione privata di lusso. 20+ pax. Per group charter molto grandi.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-016",
+      "front": "Airbus ACJ319 / ACJ320",
+      "back": "Airbus Corporate Jet — A319/A320 commerciali in configurazione VIP privata. Concorrenti diretti del BBJ. 20 pax in cabina di lusso.",
+      "tags": ["aircraft", "models"]
+    },
+    {
+      "id": "f-at-017",
+      "front": "AgustaWestland AW139",
+      "back": "Helicopter di riferimento per trasferimenti executive (urbani, da/per yacht/villa, eventi). 12-15 pax. Modello tipico nel network heli PVJets.",
+      "tags": ["aircraft", "helicopters"]
+    },
+    {
+      "id": "f-at-018",
+      "front": "Decision tree categoria — durata",
+      "back": "<1.5h Heli/VLJ · 1.5-3h VLJ-Super Light · 3-4h Midsize · 4-5h Super-mid · 5-7h Heavy · 7-9h Heavy o ULR-stop · 9h+ ULR non-stop.",
+      "tags": ["sdr", "decision"]
+    },
+    {
+      "id": "f-at-019",
+      "front": "Decision tree categoria — pax",
+      "back": "1-4 qualunque (ma costo/pax sale) · 5-8 Super Light/Midsize · 9-12 Super-mid/Heavy · 13-16 ULR/Heavy esteso · 17+ VIP Airliner.",
+      "tags": ["sdr", "decision"]
+    },
+    {
+      "id": "f-at-020",
+      "front": "Brief broker — riga aircraft",
+      "back": "Pattern: 'Aspetto [categoria] ([1-2 modelli probabili]) — verificare [variabili: disponibilità / scalo vs non-stop / preferenza cliente]'.",
+      "tags": ["sdr", "process"]
+    },
+    {
+      "id": "f-at-021",
+      "front": "Super Light vs Midsize",
+      "back": "Super Light: ~20-30% costo orario in meno, agile su piste regionali. Midsize: cabina più alta (lavoro/riposo), più pax, più bagagli. Decisione frequente per voli 3-4h.",
+      "tags": ["aircraft", "comparison"]
+    },
+    {
+      "id": "f-at-022",
+      "front": "Heavy vs Ultra Long Range",
+      "back": "Heavy: costo orario significativamente inferiore, più disponibilità di mercato. ULR: non-stop garantito 8h+, cabina multi-zona, range che evita scali tecnici.",
+      "tags": ["aircraft", "comparison"]
+    }
+  ],
   "lead-qualification": [],
   "whatsapp-communication": [],
   "scenarios": []

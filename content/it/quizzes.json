@@ -653,7 +653,110 @@
       "source": "knowledge generale"
     }
   ],
-  "aircraft-types": [],
+  "aircraft-types": [
+    {
+      "id": "q-at-001",
+      "type": "mcq",
+      "question": "Cosa significa 'VLJ'?",
+      "options": [
+        "Very Light Jet — categoria entry-level (4-6 pax, range ~2.000-2.500 km)",
+        "Vehicle Lease Jet",
+        "Vintage Light Jet",
+        "Vertical Landing Jet"
+      ],
+      "correct_index": 0,
+      "explanation": "Very Light Jet = categoria entry. Esempi: Phenom 100, Citation Mustang, HondaJet. Non è categoria PVJets premium, ma può comparire in conversazione cliente.",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-at-002",
+      "type": "mcq",
+      "question": "Un cliente chiede 'Phenom 300 disponibile?'. A quale categoria appartiene?",
+      "options": ["Super Light Jet", "Midsize", "Super Midsize", "Heavy"],
+      "correct_index": 0,
+      "explanation": "Phenom 300 è uno dei Super Light Jet più richiesti (6-7 pax, ~3.700 km).",
+      "source": "company_profile.pdf p.11 + knowledge"
+    },
+    {
+      "id": "q-at-003",
+      "type": "mcq",
+      "question": "Quale aircraft è il 'best-seller' della categoria Super Midsize?",
+      "options": ["Challenger 300/350", "Phenom 100", "Falcon 8X", "Boeing BBJ"],
+      "correct_index": 0,
+      "explanation": "Challenger 300/350 è il best-seller assoluto del Super Midsize. Cabina ampia, 5.700 km di range, ottimo per Parigi-Dubai.",
+      "source": "knowledge generale + company_profile.pdf p.13"
+    },
+    {
+      "id": "q-at-004",
+      "type": "mcq",
+      "question": "Per un Roma → New York non-stop con 8 pax, qual è la proposta più appropriata?",
+      "options": [
+        "Heavy Jet (es. Falcon 2000LX, Challenger 605) o Ultra Long Range",
+        "VLJ con stop tecnico",
+        "Super Light",
+        "Midsize"
+      ],
+      "correct_index": 0,
+      "explanation": "Roma-NY è classico transatlantico: 8h volo, 8 pax. Heavy basta (Falcon 2000LX = 7.700 km). ULR si propone se il cliente vuole comfort cabina superiore.",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-at-005",
+      "type": "mcq",
+      "question": "Cosa rende il Pilatus PC-24 distintivo nel suo segmento?",
+      "options": [
+        "Può atterrare su piste corte e non asfaltate, ideale per destinazioni alpine",
+        "Ha 4 motori invece di 2",
+        "È completamente elettrico",
+        "Ha cabina formato airliner"
+      ],
+      "correct_index": 0,
+      "explanation": "Pilatus PC-24 è famoso per la versatilità su piste regionali, corte o non asfaltate. Tipico per accessi alpini.",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-at-006",
+      "type": "mcq",
+      "question": "Cosa caratterizza il Falcon 8X rispetto ad altri ULR?",
+      "options": [
+        "Ha 3 motori (sicurezza extra su tratte oceaniche lunghe)",
+        "È il più economico",
+        "Ha solo 4 posti",
+        "È un VIP Airliner mascherato"
+      ],
+      "correct_index": 0,
+      "explanation": "Il Falcon 8X (Dassault) ha 3 motori, una caratteristica che lo rende preferito da alcuni clienti UHNWI per la ridondanza in volo oceanico.",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-at-007",
+      "type": "mcq",
+      "question": "Per un group charter di 18 pax, quale categoria sicuramente esclude?",
+      "options": [
+        "Ultra Long Range (max 14-19 pax, ma alcuni sono già al limite)",
+        "VIP Airliner (perfetto)",
+        "Heavy Jet (10-12 pax, troppo piccolo)",
+        "Sia Heavy che Super Light vanno esclusi"
+      ],
+      "correct_index": 3,
+      "explanation": "Heavy (max 12 pax) e Super Light (max 8 pax) sono sotto la soglia. ULR può arrivare a 14-19 ma è teso. VIP Airliner (20 pax) è la scelta più rilassata. Nota: la risposta corretta è quella più completa.",
+      "source": "company_profile.pdf p.14-16"
+    },
+    {
+      "id": "q-at-008",
+      "type": "mcq",
+      "question": "Qual è il modo corretto di scrivere l'indicazione aircraft nel brief al broker?",
+      "options": [
+        "Aspetto Super Midsize (Challenger 300/350 o Praetor 600) — verificare disponibilità + preferenza cliente su scalo vs non-stop",
+        "Challenger 350 obbligatorio",
+        "Super Midsize",
+        "Vediamo cosa propone l'operator"
+      ],
+      "correct_index": 0,
+      "explanation": "L'indicazione corretta combina categoria + 1-2 modelli probabili + disclaimer + le variabili che il broker deve verificare con il cliente. Non promette modello, non è troppo generica.",
+      "source": "best practice SDR"
+    }
+  ],
   "lead-qualification": [],
   "whatsapp-communication": [],
   "scenarios": []
