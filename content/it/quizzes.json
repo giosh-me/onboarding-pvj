@@ -463,7 +463,92 @@
       "source": "company_profile.pdf p.5"
     }
   ],
-  "sustainability": [],
+  "sustainability": [
+    {
+      "id": "q-su-001",
+      "type": "mcq",
+      "question": "Quali sono le tre leve operative con cui PVJets affronta la sostenibilità?",
+      "options": [
+        "Next-gen aircraft, ottimizzazione repositioning (Empty Legs), carbon offset certificato",
+        "Voli a propulsione elettrica, treno + jet, niente jet la domenica",
+        "Sconto del 10% se si rinuncia al volo, alberi nominativi, biocarburante",
+        "Solo offset, niente di operativo"
+      ],
+      "correct_index": 0,
+      "explanation": "Le tre leve PVJets sono: flotta più recente ed efficiente, ottimizzazione dei repositioning via Empty Legs, e compensazione CO₂ via programmi certificati.",
+      "source": "company_profile.pdf p.17"
+    },
+    {
+      "id": "q-su-002",
+      "type": "mcq",
+      "question": "Quali tre tipologie di programma carbon offset usa PVJets?",
+      "options": [
+        "Reforestation, renewable energy projects, carbon capture solutions",
+        "Pedaggi autostradali, taxi elettrici, fotovoltaico interno",
+        "Solo riforestazione",
+        "Nessuna, è solo sul company profile"
+      ],
+      "correct_index": 0,
+      "explanation": "Il company profile cita esplicitamente questi tre tipi: reforestation efforts, renewable energy projects, carbon capture solutions.",
+      "source": "company_profile.pdf p.17"
+    },
+    {
+      "id": "q-su-003",
+      "type": "mcq",
+      "question": "Cosa significa 'certificato' quando si parla di carbon offset?",
+      "options": [
+        "I programmi sono validati da standard internazionali (Verra/VCS, Gold Standard, CDM) che ne quantificano l'impatto",
+        "PVJets ha un certificato interno di sostenibilità",
+        "Il cliente firma un certificato all'imbarco",
+        "Niente, è una parola di marketing"
+      ],
+      "correct_index": 0,
+      "explanation": "Standard come Verra (VCS), Gold Standard, CDM validano i programmi offset garantendo quantificazione e non-doppia-conta. È quello che differenzia un offset serio dal greenwashing.",
+      "source": "knowledge generale + company_profile.pdf p.17"
+    },
+    {
+      "id": "q-su-004",
+      "type": "mcq",
+      "question": "Un cliente dice 'ma il jet privato è inquinante, perché dovrei usarlo?'. Risposta migliore?",
+      "options": [
+        "Riconosco il punto, e PVJets affronta il tema con tre leve concrete: flotta nuova efficiente, vendita degli Empty Legs per ridurre i voli vuoti, e offset CO₂ certificato",
+        "Non si preoccupi, non è poi così inquinante",
+        "Tutti gli aerei inquinano, anche quelli di linea",
+        "Allora prenda il treno"
+      ],
+      "correct_index": 0,
+      "explanation": "La risposta corretta riconosce il fatto + cita le tre leve concrete + non improvvisa numeri specifici. È la triade 'acknowledge + concrete + escalate-if-needed'.",
+      "source": "company_profile.pdf p.17 + best practice SDR"
+    },
+    {
+      "id": "q-su-005",
+      "type": "mcq",
+      "question": "Vendere un Empty Leg è sostenibilmente positivo perché:",
+      "options": [
+        "Riempie un volo di riposizionamento già pianificato che altrimenti tornerebbe vuoto, migliorando il rapporto pax-km × emissioni",
+        "Usa carburante diverso",
+        "Il cliente paga un sovrapprezzo che va in offset",
+        "L'aircraft vola più lentamente"
+      ],
+      "correct_index": 0,
+      "explanation": "Il volo è già programmato e farà comunque la tratta. Riempirlo migliora drasticamente il rapporto emissioni/passeggero senza aumentare significativamente il consumo.",
+      "source": "company_profile.pdf p.17"
+    },
+    {
+      "id": "q-su-006",
+      "type": "mcq",
+      "question": "Quanto risparmio sulle emissioni offre la SAF (Sustainable Aviation Fuel) sul ciclo vita?",
+      "options": [
+        "Fino al ~80% rispetto al carburante tradizionale",
+        "Il 5%",
+        "Il 200%",
+        "Niente"
+      ],
+      "correct_index": 0,
+      "explanation": "SAF, certificate da standard internazionali, può ridurre le emissioni del ciclo vita fino all'80%. È in forte crescita ma rappresenta ancora meno dell'1% del consumo globale aviazione.",
+      "source": "knowledge generale aviation industry"
+    }
+  ],
   "private-aviation-market": [],
   "aircraft-types": [],
   "lead-qualification": [],

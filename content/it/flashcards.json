@@ -375,7 +375,68 @@
       "tags": ["services"]
     }
   ],
-  "sustainability": [],
+  "sustainability": [
+    {
+      "id": "f-su-001",
+      "front": "Le tre leve di sostenibilità PVJets",
+      "back": "1) Next-gen aircraft più efficienti · 2) Ottimizzazione repositioning via Empty Legs · 3) Carbon offset certificato.",
+      "tags": ["sustainability"]
+    },
+    {
+      "id": "f-su-002",
+      "front": "Reforestation",
+      "back": "Programma di carbon offset che pianta foreste per assorbire CO₂. Uno dei tre filoni offset usati da PVJets.",
+      "tags": ["sustainability", "offset"]
+    },
+    {
+      "id": "f-su-003",
+      "front": "Renewable energy (offset)",
+      "back": "Programma offset che finanzia energie rinnovabili (solare, eolico) evitando emissioni alternative. Uno dei tre filoni PVJets.",
+      "tags": ["sustainability", "offset"]
+    },
+    {
+      "id": "f-su-004",
+      "front": "Carbon capture",
+      "back": "Tecnologia di rimozione diretta di CO₂ dall'atmosfera. Filone offset più recente, ancora costoso. Uno dei tre programmi PVJets.",
+      "tags": ["sustainability", "offset"]
+    },
+    {
+      "id": "f-su-005",
+      "front": "Carbon offset certificato",
+      "back": "Programmi validati da standard internazionali (Verra/VCS, Gold Standard, CDM) che quantificano emissioni evitate e prevengono doppia conta. Differenza chiave da offset 'fai-da-te'.",
+      "tags": ["sustainability", "standards"]
+    },
+    {
+      "id": "f-su-006",
+      "front": "Verra / VCS",
+      "back": "Verified Carbon Standard di Verra — il programma di certificazione carbon offset più diffuso al mondo. Standard di riferimento per la qualità dei progetti.",
+      "tags": ["sustainability", "standards"]
+    },
+    {
+      "id": "f-su-007",
+      "front": "Gold Standard",
+      "back": "Standard di certificazione offset con focus su impatto sociale + ambientale. Concorrente/complementare a Verra. Uno dei riferimenti del settore.",
+      "tags": ["sustainability", "standards"]
+    },
+    {
+      "id": "f-su-008",
+      "front": "SAF (Sustainable Aviation Fuel)",
+      "back": "Biocarburante per aviazione che può ridurre le emissioni del ciclo vita fino all'80%. Oggi <1% del consumo aviazione globale ma in forte crescita. Cliente che lo cita = sofisticato.",
+      "tags": ["sustainability", "fuels"]
+    },
+    {
+      "id": "f-su-009",
+      "front": "Empty Leg come azione sostenibile",
+      "back": "Vendere Empty Legs riempie voli di riposizionamento già pianificati. Migliora il rapporto pax-km × emissioni senza aumentare il consumo. È insieme leva commerciale e sostenibile.",
+      "tags": ["sustainability", "operations"]
+    },
+    {
+      "id": "f-su-010",
+      "front": "Risposta alla obiezione 'il jet inquina'",
+      "back": "Pattern: 1) acknowledge il fatto · 2) cita le tre leve PVJets · 3) NON improvvisare numeri specifici · 4) escalate al broker per dettagli SAF/programmi.",
+      "tags": ["sdr", "objections"]
+    }
+  ],
   "private-aviation-market": [],
   "aircraft-types": [],
   "lead-qualification": [],
