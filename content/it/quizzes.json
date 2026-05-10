@@ -3,23 +3,104 @@
     {
       "id": "q-w-001",
       "type": "mcq",
-      "question": "Qual è il motto di PVJets?",
+      "question": "Qual è il motto ufficiale di PVJets?",
       "options": ["Fly Private Every Time", "Always Fly Higher", "Best in Sky", "Travel Like a King"],
       "correct_index": 0,
-      "explanation": "Il motto ufficiale è 'Fly Private Every Time'."
+      "explanation": "Il motto è 'Fly Private Every Time' — è la promessa: per il cliente, volare privato è la scelta di default, non un'eccezione.",
+      "source": "company_profile.pdf p.1"
     },
     {
       "id": "q-w-002",
       "type": "mcq",
-      "question": "Come viene descritta l'identità di PVJets?",
+      "question": "Chi firma il messaggio di benvenuto del company profile PVJets?",
+      "options": ["Marco Vitali, Co-Founder & President Voyage Jets", "Astrid Assouad, SDR", "Gabriele Rossi, Lead Broker", "Un consiglio anonimo di founders"],
+      "correct_index": 0,
+      "explanation": "Il messaggio è firmato Marco Vitali, Co-Founder e President Voyage Jets.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-003",
+      "type": "mcq",
+      "question": "Come viene descritta l'identità di PVJets nel company profile?",
       "options": [
-        "Italian company with Swiss precision",
-        "Swiss company with Italian flexibility",
-        "French-Italian joint venture",
-        "American operator in Europe"
+        "An Italian company with Swiss excellence at its core",
+        "A Swiss company with Italian flexibility",
+        "A French-Italian joint venture",
+        "An American operator with European base"
       ],
       "correct_index": 0,
-      "explanation": "PVJets è un'azienda italiana con precisione svizzera."
+      "explanation": "Identità ufficiale: 'an Italian company with Swiss excellence at its core' — radici italiane, eccellenza operativa svizzera.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-004",
+      "type": "mcq",
+      "question": "Quali sono i due tipi di clienti che PVJets serve principalmente?",
+      "options": [
+        "Executives e HNWI",
+        "Solo executives aziendali",
+        "Solo turisti di lusso",
+        "Compagnie aeree commerciali"
+      ],
+      "correct_index": 0,
+      "explanation": "Mission del Welcome message: permettere a executives e HNWIs di volare consistentemente con fair pricing e impeccable service.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-005",
+      "type": "mcq",
+      "question": "Da quale tipo di istituzioni provengono i broker e i founder PVJets?",
+      "options": [
+        "Top Swiss private aviation institutions",
+        "Top US commercial airlines",
+        "European startup accelerators",
+        "Government aviation agencies"
+      ],
+      "correct_index": 0,
+      "explanation": "Il messaggio del Co-Founder lo dice esplicitamente: 'our brokers and founders come from top Swiss private aviation institutions'.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-006",
+      "type": "mcq",
+      "question": "Da quali due associazioni del settore PVJets è formalmente riconosciuta?",
+      "options": [
+        "EBAA e NBAA",
+        "IATA e ICAO",
+        "FAA e CAA",
+        "EASA e ENAC"
+      ],
+      "correct_index": 0,
+      "explanation": "EBAA (European Business Aviation Association) e NBAA (National Business Aviation Association) sono i due organismi che riconoscono PVJets per excellence and reliability.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-007",
+      "type": "mcq",
+      "question": "Quale di queste NON è uno dei servizi global offerti da PVJets?",
+      "options": [
+        "Servizi di booking commerciale di voli di linea",
+        "Private Jet Charter",
+        "Helicopter Transfer",
+        "Air Ambulance"
+      ],
+      "correct_index": 0,
+      "explanation": "PVJets non vende voli di linea. I sei servizi global sono Private Jet Charter, Empty Legs, Group Charter, Helicopter Transfer, Diplomatic Services e Air Ambulance.",
+      "source": "company_profile.pdf p.5"
+    },
+    {
+      "id": "q-w-008",
+      "type": "mcq",
+      "question": "Qual è il ruolo legale di PVJets rispetto agli aeromobili?",
+      "options": [
+        "Broker — agisce come agente per conto del cliente, non opera aeromobili",
+        "Operatore proprietario di una flotta",
+        "Compagnia aerea che vende biglietti",
+        "Consulente che non firma contratti"
+      ],
+      "correct_index": 0,
+      "explanation": "Il disclaimer ufficiale è chiaro: 'PVJets s.r.l. is a flight broker [...] acting as an agent on behalf of its clients [...] is neither a contracting nor an indirect carrier.'",
+      "source": "company_profile.pdf p.19"
     }
   ],
   "mission": [],

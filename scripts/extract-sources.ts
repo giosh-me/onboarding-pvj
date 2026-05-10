@@ -28,7 +28,10 @@ async function extractPdf(src: string): Promise<string> {
 }
 
 async function extractDocx(src: string): Promise<string> {
-  const { value } = await mammoth.convertToMarkdown({ path: src })
+  const m = mammoth as unknown as {
+    convertToMarkdown: (input: { path: string }) => Promise<{ value: string }>
+  }
+  const { value } = await m.convertToMarkdown({ path: src })
   return value
 }
 

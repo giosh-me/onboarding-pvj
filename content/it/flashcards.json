@@ -3,14 +3,74 @@
     {
       "id": "f-w-001",
       "front": "Fly Private Every Time",
-      "back": "Motto di PVJets — vola privato ogni volta, senza eccezioni.",
-      "tags": ["brand"]
+      "back": "Motto ufficiale PVJets. Per il cliente, volare privato è la default, non un'eccezione. Il nostro lavoro è renderlo sostenibile su costi, tempi e servizio.",
+      "tags": ["brand", "motto"]
     },
     {
       "id": "f-w-002",
-      "front": "Italian company with Swiss precision",
-      "back": "Identità PVJets — radici italiane, eccellenza operativa svizzera.",
-      "tags": ["brand"]
+      "front": "Italian company with Swiss excellence at its core",
+      "back": "Identità PVJets ufficiale. Cultura italiana del servizio + rigore operativo svizzero (founders e broker da top Swiss private aviation institutions).",
+      "tags": ["brand", "identity"]
+    },
+    {
+      "id": "f-w-003",
+      "front": "Marco Vitali",
+      "back": "Co-Founder PVJets, President di Voyage Jets. Firma il messaggio di benvenuto del company profile.",
+      "tags": ["people", "founders"]
+    },
+    {
+      "id": "f-w-004",
+      "front": "EBAA",
+      "back": "European Business Aviation Association — organismo di riferimento dell'aviazione privata europea. Riconosce PVJets per excellence and reliability.",
+      "tags": ["industry", "associations"]
+    },
+    {
+      "id": "f-w-005",
+      "front": "NBAA",
+      "back": "National Business Aviation Association — controparte americana di EBAA. Anche NBAA riconosce PVJets.",
+      "tags": ["industry", "associations"]
+    },
+    {
+      "id": "f-w-006",
+      "front": "Executive",
+      "back": "Manager o decision-maker che usa l'aviazione privata come strumento di lavoro. Priorità: puntualità, privacy, capacità di lavorare in volo.",
+      "tags": ["clients", "segments"]
+    },
+    {
+      "id": "f-w-007",
+      "front": "HNWI",
+      "back": "High Net Worth Individual — cliente privato con elevata capacità di spesa. Vola per leisure, famiglia, occasioni. Priorità: comfort, esclusività, esperienza.",
+      "tags": ["clients", "segments"]
+    },
+    {
+      "id": "f-w-008",
+      "front": "UHNWI",
+      "back": "Ultra High Net Worth Individual — segmento più alto degli HNWI. Aspettative di servizio massime, sensibilità al prezzo praticamente nulla.",
+      "tags": ["clients", "segments"]
+    },
+    {
+      "id": "f-w-009",
+      "front": "Broker (in private aviation)",
+      "back": "Intermediario che noleggia aeromobili da operatori terzi e li propone ai clienti, agendo come agente per loro conto. Non opera aeromobili in proprio. PVJets è un broker.",
+      "tags": ["industry", "roles"]
+    },
+    {
+      "id": "f-w-010",
+      "front": "Empty Leg",
+      "back": "Volo di riposizionamento già prenotato che torna 'a vuoto' — venduto a tariffa ridotta. Uno dei sei servizi global PVJets.",
+      "tags": ["services"]
+    },
+    {
+      "id": "f-w-011",
+      "front": "I 6 servizi global PVJets",
+      "back": "Private Jet Charter · Empty Legs · Group Charter · Helicopter Transfer · Diplomatic Services · Air Ambulance.",
+      "tags": ["services"]
+    },
+    {
+      "id": "f-w-012",
+      "front": "Il ruolo dell'SDR in PVJets",
+      "back": "Primo punto di contatto. Ascolta, qualifica, raccoglie info essenziali (rotta, date, pax, segmento) e passa il lead al broker. Non chiude direttamente il volo.",
+      "tags": ["sdr", "process"]
     }
   ],
   "mission": [],
