@@ -861,6 +861,114 @@
       "source": "SOP Qualificazione Lead §9.2"
     }
   ],
-  "whatsapp-communication": [],
+  "whatsapp-communication": [
+    {
+      "id": "q-wa-001",
+      "type": "mcq",
+      "question": "Qual è lo SLA di primo contatto WhatsApp PVJets in orario lavorativo?",
+      "options": ["15 minuti", "1 ora", "30 minuti", "4 ore"],
+      "correct_index": 0,
+      "explanation": "15 minuti è lo standard HNWI. Sopra i 30 min la probabilità di conversione cala significativamente. Orario lavorativo: 09-20 CET.",
+      "source": "SOP WhatsApp §4"
+    },
+    {
+      "id": "q-wa-002",
+      "type": "mcq",
+      "question": "Come apri un primo messaggio WhatsApp a un cliente PVJets in italiano?",
+      "options": [
+        "Buongiorno Dott. / Dott.ssa [Cognome], sono [Nome] di PVJets...",
+        "Ciao [Nome], qui [Mio nome] PVJets!",
+        "Salve, le scrivo da PVJets",
+        "Hi! Grazie per l'interesse"
+      ],
+      "correct_index": 0,
+      "explanation": "Il canone è 'Buongiorno' (mai 'Salve' né 'Ciao') + Dott./Dott.ssa + cognome + presentazione in prima persona singolare.",
+      "source": "SOP WhatsApp §2.1, §4.1"
+    },
+    {
+      "id": "q-wa-003",
+      "type": "mcq",
+      "question": "Quale di questi termini è VIETATO nel canone PVJets?",
+      "options": [
+        "Pacchetto",
+        "Investimento",
+        "Soluzione curata",
+        "Proposta dedicata"
+      ],
+      "correct_index": 0,
+      "explanation": "'Pacchetto' è merceologico, da consumer brand. PVJets vende 'soluzione su misura', 'investimento', 'proposta dedicata'.",
+      "source": "SOP WhatsApp §2.3"
+    },
+    {
+      "id": "q-wa-004",
+      "type": "mcq",
+      "question": "Quante domande qualificanti fai nel primo messaggio?",
+      "options": [
+        "Una sola (tratta+date OPPURE tratta+pax)",
+        "Tutte quelle del SOP qualificazione, in cascata",
+        "3-4, in modo ordinato",
+        "Nessuna, aspetto che il cliente racconti tutto"
+      ],
+      "correct_index": 0,
+      "explanation": "Una sola domanda qualificante. Il cliente HNWI risponde a una domanda chiara. Più domande = paralisi.",
+      "source": "SOP WhatsApp §4.4"
+    },
+    {
+      "id": "q-wa-005",
+      "type": "mcq",
+      "question": "Quante opzioni di aircraft mandi nel messaggio di offerta (A2)?",
+      "options": [
+        "Massimo 2",
+        "Tutte quelle disponibili",
+        "Almeno 5 per dare scelta",
+        "Una sola (semplifica)"
+      ],
+      "correct_index": 0,
+      "explanation": "Mai più di 2 opzioni. Più opzioni = paralisi decisionale. Una sola opzione = il cliente non sente di scegliere.",
+      "source": "SOP WhatsApp §6.2"
+    },
+    {
+      "id": "q-wa-006",
+      "type": "mcq",
+      "question": "Dove va il prezzo nel messaggio di offerta?",
+      "options": [
+        "Nel corpo del messaggio. PDF e immagini DOPO che il cliente ha scelto",
+        "In un PDF allegato per professionalità",
+        "Solo dopo conferma di pagamento",
+        "In un'immagine PNG"
+      ],
+      "correct_index": 0,
+      "explanation": "Il prezzo va nel corpo del messaggio (es. 'investimento € 28.500'). Mai 'Le mando prima un PDF'. PDF/immagini = follow-up, non ostacolo.",
+      "source": "SOP WhatsApp §1.4 principio 7, §6.2"
+    },
+    {
+      "id": "q-wa-007",
+      "type": "mcq",
+      "question": "Path A o Path B: hai un dubbio. Cosa scegli?",
+      "options": [
+        "Path A — sempre. Si può escalare a B in seguito; il contrario è perdita di attenzione",
+        "Path B — più collaborativo",
+        "Né A né B",
+        "Tiro un dado"
+      ],
+      "correct_index": 0,
+      "explanation": "In dubbio = Path A. Si può sempre annunciare un gruppo poi ('Le presento il broker senior'). Da gruppo a 1:1 = il cliente percepisce perdita di attenzione.",
+      "source": "SOP WhatsApp §5"
+    },
+    {
+      "id": "q-wa-008",
+      "type": "mcq",
+      "question": "Quale chiusura è CORRETTA in italiano?",
+      "options": [
+        "Un cordiale saluto, [Nome] — PVJets",
+        "A presto!!",
+        "Ci sentiamo, ciao",
+        "Grazie e cheers"
+      ],
+      "correct_index": 0,
+      "explanation": "'Un cordiale saluto' o 'Resto a Sua completa disposizione' sono le formule canoniche. Mai 'A presto' (informale), mai 'cheers' (anglosassone consumer).",
+      "source": "SOP WhatsApp §2.1, §2.4"
+    }
+  ],
   "scenarios": []
 }

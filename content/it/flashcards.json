@@ -791,6 +791,91 @@
       "tags": ["sdr", "escalation"]
     }
   ],
-  "whatsapp-communication": [],
+  "whatsapp-communication": [
+    {
+      "id": "f-wa-001",
+      "front": "SLA primo contatto WhatsApp",
+      "back": "15 minuti in orario lavorativo (09-20 CET). Sopra i 30 min la conversione cala significativamente. Standard HNWI.",
+      "tags": ["whatsapp", "sla"]
+    },
+    {
+      "id": "f-wa-002",
+      "front": "I 8 principi guida HNWI",
+      "back": "1) Cliente detta tempo · 2) Concierge>venditore · 3) Ogni messaggio aggiunge valore · 4) Formalità infrastruttura · 5) WA non è email · 6) Una sola domanda · 7) Prezzo prima del PDF · 8) Discrezione + audit trail.",
+      "tags": ["whatsapp", "principles"]
+    },
+    {
+      "id": "f-wa-003",
+      "front": "Apertura italiana corretta",
+      "back": "'Buongiorno Dott. / Dott.ssa [Cognome], sono [Nome] di PVJets'. Mai 'Ciao', mai 'Salve', mai 'Hi'.",
+      "tags": ["whatsapp", "templates", "it"]
+    },
+    {
+      "id": "f-wa-004",
+      "front": "Apertura inglese corretta",
+      "back": "'Good morning Mr / Mrs [Surname], this is [Name] from PVJets'. Mai 'Hi', mai 'Hey'.",
+      "tags": ["whatsapp", "templates", "en"]
+    },
+    {
+      "id": "f-wa-005",
+      "front": "Lessico vietato",
+      "back": "Pacchetto · Super prezzo · Amazing deal · ASAP · Solo per VIP · emoji 😊👍✈️ · punti esclamativi multipli !!.",
+      "tags": ["whatsapp", "language"]
+    },
+    {
+      "id": "f-wa-006",
+      "front": "Lessico canonico",
+      "back": "Investimento · Proposta dedicata · Soluzione curata · A Sua completa disposizione · Al momento a Lei più comodo · Su misura.",
+      "tags": ["whatsapp", "language"]
+    },
+    {
+      "id": "f-wa-007",
+      "front": "Chiusura canonica IT",
+      "back": "'Resto a Sua completa disposizione' · 'Un cordiale saluto, [Nome] — PVJets'. Mai 'A presto', 'Ciao', 'Cheers'.",
+      "tags": ["whatsapp", "templates", "it"]
+    },
+    {
+      "id": "f-wa-008",
+      "front": "Chiusura canonica EN",
+      "back": "'I remain at your entire disposal' · 'With my kindest regards, [Name] — PVJets'. Mai 'Cheers', 'Talk soon'.",
+      "tags": ["whatsapp", "templates", "en"]
+    },
+    {
+      "id": "f-wa-009",
+      "front": "Path A — Concierge",
+      "back": "SDR è unico interlocutore dal primo messaggio al post-volo. Broker invisibile (coordina internamente). Per HNWI/UHNWI con preferenza singolo interlocutore, richieste semplici/medie, urgenza alta.",
+      "tags": ["whatsapp", "paths"]
+    },
+    {
+      "id": "f-wa-010",
+      "front": "Path B — Group Flow",
+      "back": "Gruppo WhatsApp con cliente + SDR + broker. Broker entra direttamente con offerta. SDR è gatekeeper + retention. Per richieste complesse (multi-leg), alto valore, cliente curioso.",
+      "tags": ["whatsapp", "paths"]
+    },
+    {
+      "id": "f-wa-011",
+      "front": "In dubbio Path A",
+      "back": "Sempre Path A. Si può escalare a B in seguito ('Le presento il broker senior'). Il contrario — da gruppo a 1:1 — è percepito come perdita di attenzione.",
+      "tags": ["whatsapp", "paths"]
+    },
+    {
+      "id": "f-wa-012",
+      "front": "Regola d'oro offerta (A2)",
+      "back": "Max 2 opzioni · prezzo nel CORPO del messaggio (non in PDF) · orario in 24h · euro con separatore migliaia (€ 28.500) · UNA sola domanda di chiusura.",
+      "tags": ["whatsapp", "offer"]
+    },
+    {
+      "id": "f-wa-013",
+      "front": "Follow-up A3",
+      "back": "Un solo follow-up a 4-6h. Tono leggero, nessuna pressione. Non ripetere la lista opzioni: solo riferimento sintetico.",
+      "tags": ["whatsapp", "follow-up"]
+    },
+    {
+      "id": "f-wa-014",
+      "front": "Concierge non venditore",
+      "back": "L'SDR PVJets non vende: accompagna. Niente closing pressure. Il cliente percepisce cura, non urgency. È il principio guida #2.",
+      "tags": ["whatsapp", "principles"]
+    }
+  ],
   "scenarios": []
 }
