@@ -6,6 +6,8 @@ export default defineConfig({
   reporter: 'list',
   use: {
     baseURL: process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:3000',
+    locale: 'it-IT',
+    extraHTTPHeaders: { 'Accept-Language': 'it,it-IT;q=0.9' },
     trace: 'on-first-retry',
   },
   projects: [
