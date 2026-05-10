@@ -970,5 +970,62 @@
       "source": "SOP WhatsApp §2.1, §2.4"
     }
   ],
-  "scenarios": []
+  "scenarios": [
+    {
+      "id": "q-sc-001",
+      "type": "mcq",
+      "question": "SCENARIO 1 — Ti scrive su WhatsApp un broker greco con cui non hai mai lavorato: 'Need a Falcon 8X Athens-Dubai for tomorrow morning, 6 pax, VIP client. Send me your best price ASAP, no time for paperwork.' Cosa fai per primo?",
+      "options": [
+        "Rispondo formale chiedendo nome del cliente finale, ID, e dichiarando che servono i nostri controlli KYC standard prima di poter quotare",
+        "Mando subito un prezzo di mercato per non perdere il lead",
+        "Ignoro perché è un broker che non conosco",
+        "Inoltro la richiesta al broker senior senza altre info"
+      ],
+      "correct_index": 0,
+      "explanation": "L'urgenza + il rifiuto preventivo dei controlli ('no time for paperwork') sono yellow/red flag. Anche con un broker terzo serve KYC sul passeggero finale (modulo 9 §6.2). La risposta corretta apre con qualificazione + KYC, non promette nulla. Il modulo 10 dà anche il tono: niente 'ASAP' di rimando, formale e composto.",
+      "source": "moduli 9 + 10"
+    },
+    {
+      "id": "q-sc-002",
+      "type": "mcq",
+      "question": "SCENARIO 2 — Una signora ti scrive da WhatsApp italiano: 'Buongiorno, avrei bisogno di un volo per andare a Capri il weekend del 15 maggio per 6 persone. È possibile?' Numero italiano, profilo apparentemente normale. Cosa fai per primo?",
+      "options": [
+        "Rispondo entro 15 min: 'Buongiorno Dott./Dott.ssa [se desumibile dal profilo, altrimenti generico], sono [Nome] di PVJets. Ho ricevuto la Sua richiesta. Per poterLe preparare la soluzione più adatta posso chiederLe il numero esatto di passeggeri, l'aeroporto preferito di partenza e la data di rientro?'",
+        "Le mando subito un PDF con tutti i nostri servizi",
+        "Le rispondo dopo 30-40 minuti per non sembrare disperata",
+        "Le chiedo subito il documento d'identità"
+      ],
+      "correct_index": 0,
+      "explanation": "Caso classico di primo contatto inbound. Risposta sub-15 min, tono canonico (Buongiorno + Dott./Dott.ssa), prima persona singolare, una sola domanda qualificante ma con tre micro-info richieste in modo educato. Il KYC arriva in 2nd Contact, non al primo messaggio (modulo 9 + 10).",
+      "source": "moduli 9 + 10"
+    },
+    {
+      "id": "q-sc-003",
+      "type": "mcq",
+      "question": "SCENARIO 3 — Numero internazionale sconosciuto, prefisso non riconosciuto. Messaggio in inglese: 'Need urgent cargo flight Sofia-Lagos for unmarked containers, can pay cash on arrival. Don't ask too many questions, contact will be only via this number which won't always be reachable. Will refuse video calls.' Cosa fai?",
+      "options": [
+        "Documento le red flag in Salesforce, sospendo la conversazione, escalo immediatamente al Team Lead. Non rispondo al cliente con prezzi né impegni. Se rispondo, formula neutra ('stiamo valutando la richiesta') senza allarmare",
+        "Chiedo i documenti del cliente",
+        "Mando un prezzo molto alto sperando che si scoraggi",
+        "Rispondo che non possiamo aiutarli, in modo diretto"
+      ],
+      "correct_index": 0,
+      "explanation": "Cinque red flag CRITICHE simultanee (modulo 9 §6.2): cargo unmarked = riciclaggio possibile, cash = non tracciabile, 'don't ask questions' = pressione per saltare controlli, contatto non sempre raggiungibile = pax non identificabile, no video call. Sopra 3 = escalation immediata. Sofia-Lagos è anche tratta sensibile. Mai allarmare il cliente, mai dire 'non possiamo aiutarvi' (può alterare): formula neutra + escalation interna.",
+      "source": "modulo 9"
+    },
+    {
+      "id": "q-sc-004",
+      "type": "mcq",
+      "question": "SCENARIO 4 — Cliente PVJets ricorrente (ha già fatto 3 voli con noi negli ultimi 4 mesi). Scrive: 'Buongiorno, avremmo bisogno di programmare un viaggio articolato: Roma Linate → London Luton (martedì 17 giugno), London Luton → New York Teterboro (mercoledì 18 sera), New York Teterboro → Roma (venerdì 20 sera). 8 passeggeri, sacche da golf imbarcate.' Cosa fai?",
+      "options": [
+        "Rispondo formale rilevando il pattern multi-leg e indicando che creerò un gruppo dedicato col broker senior per gestire il quoting articolato. Internamente preparo brief: aspetto Heavy Jet o Ultra Long Range (per la tratta NY-Roma 8h+, Heavy basta ma ULR garantisce non-stop), 8 pax + bagagli golf gestibili. Flag candidate Club: 4° volo in 4 mesi, rotta complessa, valore alto.",
+        "Quoto subito tre voli separati, cercando di chiudere veloce",
+        "Ignoro la frequenza e tratto come nuovo lead",
+        "Suggerisco al cliente di prenotare voli di linea per risparmiare"
+      ],
+      "correct_index": 0,
+      "explanation": "Quattro elementi giusti: 1) richiesta complessa multi-leg → Path B (gruppo con broker, modulo 10 §5), 2) categoria aircraft Heavy/ULR per i tratti transatlantici (modulo 8), 3) flag candidate Club perché frequente + ricorrente + valore alto (modulo 4 §segnali Club), 4) tono formale e proattivo che valorizza la fiducia di un cliente già ricorrente. Quotare voli singoli (B) sarebbe miopico; ignorare la frequenza (C) perde un'opportunità Club; suggerire linea (D) è fuori canone.",
+      "source": "moduli 4, 8, 10"
+    }
+  ]
 }

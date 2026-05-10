@@ -877,5 +877,66 @@
       "tags": ["whatsapp", "principles"]
     }
   ],
-  "scenarios": []
+  "scenarios": [
+    {
+      "id": "f-sc-001",
+      "front": "Le 3 domande di triage all'arrivo di una richiesta",
+      "back": "1) Chi sta scrivendo? (cliente diretto/broker/agenzia · HNWI/exec/B2B · nuovo/ricorrente). 2) Cosa vuole davvero? (info essenziali · urgenza vera o tattica · coerenza). 3) Ci sono red flag?",
+      "tags": ["scenarios", "framework"]
+    },
+    {
+      "id": "f-sc-002",
+      "front": "Soglia escalation immediata",
+      "back": "3+ red flag CRITICHE simultanee = escalation immediata al Team Lead. 1-2 = approfondire prima di escalare. Mai trascurare red flag.",
+      "tags": ["scenarios", "redflags"]
+    },
+    {
+      "id": "f-sc-003",
+      "front": "Cosa NON promettere mai al primo messaggio",
+      "back": "Niente prezzi · niente disponibilità garantita · niente categoria specifica · niente impegni di tempo. La prima risposta qualifica e propone il prossimo passo.",
+      "tags": ["scenarios", "first-contact"]
+    },
+    {
+      "id": "f-sc-004",
+      "front": "Quando proporre Path B (gruppo con broker)",
+      "back": "Richieste complesse (multi-leg, esigenze tecniche), alto valore stimato, cliente curioso/disponibile, casi che beneficiano del coordinamento parallelo. In dubbio = sempre Path A.",
+      "tags": ["scenarios", "paths"]
+    },
+    {
+      "id": "f-sc-005",
+      "front": "Segnali di candidato PVJets Club",
+      "back": "Volume: 3+ voli in 3-4 mesi · Prevedibilità: rotte ricorrenti, pax stabili · Valorizzazione benefit non-prezzo (concierge, transfer, catering). Quando li vedi: flag al broker, non proporre tu.",
+      "tags": ["scenarios", "club"]
+    },
+    {
+      "id": "f-sc-006",
+      "front": "Risposta neutra durante verifica anti-frode",
+      "back": "'Stiamo finalizzando le verifiche interne, La aggiorno appena possibile.' Mai dire 'siete sotto verifica anti-frode'. Mai 'non possiamo aiutarvi'.",
+      "tags": ["scenarios", "fraud"]
+    },
+    {
+      "id": "f-sc-007",
+      "front": "Combo Heavy vs ULR per transatlantica",
+      "back": "Roma-NY ~8h: Heavy basta (Falcon 2000LX, Challenger 605: 7.400 km). ULR (G650ER, Global 7500: 13.000 km) si propone se il cliente vuole non-stop garantito o cabina superiore.",
+      "tags": ["scenarios", "aircraft"]
+    },
+    {
+      "id": "f-sc-008",
+      "front": "Brief broker — pattern di scrittura",
+      "back": "[chi]: cliente ricorrente / nuovo / referral. [richiesta]: rotta, date, pax, tipo. [aircraft]: aspetto Categoria X (modello1/modello2). [flag]: candidate Club / peak season / red flag risolte.",
+      "tags": ["scenarios", "handoff"]
+    },
+    {
+      "id": "f-sc-009",
+      "front": "Pattern primo messaggio canonico",
+      "back": "1) Saluto formale (Buongiorno + Dott./Dott.ssa+Cognome) · 2) Presentazione io+PVJets · 3) Acknowledge richiesta · 4) UNA domanda qualificante · 5) Chiusura disposizione. Max 3-4 righe.",
+      "tags": ["scenarios", "first-contact"]
+    },
+    {
+      "id": "f-sc-010",
+      "front": "Sintesi del percorso",
+      "back": "Brand (1-3) + Servizi/Flotta/ESG (4-6) + Mercato/Aircraft (7-8) + Procedure SDR (9-10) + Pratica (11). Tutto si compone nella prima ora con un cliente reale.",
+      "tags": ["scenarios", "summary"]
+    }
+  ]
 }
