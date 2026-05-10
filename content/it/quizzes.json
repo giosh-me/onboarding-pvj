@@ -757,7 +757,110 @@
       "source": "best practice SDR"
     }
   ],
-  "lead-qualification": [],
+  "lead-qualification": [
+    {
+      "id": "q-lq-001",
+      "type": "mcq",
+      "question": "Quante sono le fasi del flusso lead PVJets in Salesforce?",
+      "options": ["5", "3", "7", "10"],
+      "correct_index": 0,
+      "explanation": "Le 5 fasi sono: Assigned → 1st Contact → 2nd Contact → Price Range Sent → Assign to Broker.",
+      "source": "SOP Qualificazione Lead §2"
+    },
+    {
+      "id": "q-lq-002",
+      "type": "mcq",
+      "question": "Un lead inbound caldo va passato al broker entro quanto tempo (ciclo end-to-end)?",
+      "options": [
+        "48-72 ore",
+        "1 ora massimo",
+        "1 settimana",
+        "30 giorni"
+      ],
+      "correct_index": 0,
+      "explanation": "48-72h è la tempistica raccomandata dal SOP per inbound caldi. Outbound può estendersi a 7-10 giorni.",
+      "source": "SOP Qualificazione Lead §2"
+    },
+    {
+      "id": "q-lq-003",
+      "type": "mcq",
+      "question": "Lead score 14: come si gestisce?",
+      "options": [
+        "HOT LEAD — gestire entro 1 ora",
+        "WARM — entro 4 ore",
+        "COLD — entro 24 ore",
+        "Archiviare"
+      ],
+      "correct_index": 0,
+      "explanation": "13-15 punti = HOT, da gestire entro 1 ora. 9-12 = WARM (4h), 5-8 = COLD (24h), <5 = valutare archiviazione.",
+      "source": "SOP Qualificazione Lead §3.2"
+    },
+    {
+      "id": "q-lq-004",
+      "type": "mcq",
+      "question": "Quante red flag CRITICHE simultanee fanno scattare l'escalation immediata al Team Lead?",
+      "options": ["3 o più", "1", "10", "Mai"],
+      "correct_index": 0,
+      "explanation": "Tre o più red flag CRITICHE simultanee = escalation immediata. Una sola red flag richiede approfondimento ma non escalation immediata.",
+      "source": "SOP Qualificazione Lead §6.2"
+    },
+    {
+      "id": "q-lq-005",
+      "type": "mcq",
+      "question": "Quale di queste NON è una red flag CRITICA?",
+      "options": [
+        "Il lead usa Gmail invece di un dominio aziendale",
+        "Il lead rifiuta di fornire documento di identità",
+        "Pagamento richiesto in criptovalute",
+        "Tratta verso paese sanzionato"
+      ],
+      "correct_index": 0,
+      "explanation": "Email gratuita per business di alto valore è una YELLOW flag (approfondire), non critica. Le altre tre sono critiche e richiedono escalation.",
+      "source": "SOP Qualificazione Lead §6.2"
+    },
+    {
+      "id": "q-lq-006",
+      "type": "mcq",
+      "question": "Cosa significa 'KYC Light' nel processo PVJets?",
+      "options": [
+        "Procedura di verifica identità in 5 punti: documento, digitale, telefonico, aziendale, sanzioni",
+        "Verifica solo del nome",
+        "Procedura solo per i clienti Club",
+        "Niente verifica"
+      ],
+      "correct_index": 0,
+      "explanation": "KYC Light = 5 step: 1) Documento ID, 2) Verifica digitale (LinkedIn/Google), 3) Chiamata vocale/video, 4) Verifica aziendale se B2B, 5) Screening sanzioni.",
+      "source": "SOP Qualificazione Lead §6.3"
+    },
+    {
+      "id": "q-lq-007",
+      "type": "mcq",
+      "question": "Quali liste di sanzioni vanno consultate?",
+      "options": [
+        "OFAC SDN, EU Consolidated Sanctions, UN Security Council, FATF High-Risk Jurisdictions",
+        "Solo OFAC",
+        "Solo le liste italiane",
+        "Nessuna, è il broker che lo fa"
+      ],
+      "correct_index": 0,
+      "explanation": "Tutte e quattro: OFAC SDN List (USA), EU Consolidated Sanctions, UN Security Council, FATF High-Risk Jurisdictions. Strumenti utili: OpenSanctions, Sanctions Explorer.",
+      "source": "SOP Qualificazione Lead §6.4"
+    },
+    {
+      "id": "q-lq-008",
+      "type": "mcq",
+      "question": "Quando comunichi a un lead che è sotto verifica anti-frode?",
+      "options": [
+        "Mai. Usi formule neutre tipo 'stiamo finalizzando le verifiche interne'",
+        "Sempre, per trasparenza",
+        "Solo se lo chiede esplicitamente",
+        "Solo via WhatsApp"
+      ],
+      "correct_index": 0,
+      "explanation": "Il SOP è esplicito: NON allarmare il lead. Usare formule neutre. Se è una vera frode lo informi tu = lui sparisce. Se è un cliente vero, lo offendi.",
+      "source": "SOP Qualificazione Lead §9.2"
+    }
+  ],
   "whatsapp-communication": [],
   "scenarios": []
 }

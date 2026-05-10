@@ -2,8 +2,209 @@
 slug: lead-qualification
 order: 9
 title: "Come qualifichiamo un lead"
-estimated_minutes: 5
-sources: []
+estimated_minutes: 14
+sources: ["PVJets_SOP_Qualificazione_Lead.docx v1.0 marzo 2026"]
 ---
 
-(Placeholder — il contenuto reale arriverà nelle Phase successive.)
+# Come qualifichiamo un lead
+
+Da qui in poi entriamo nel cuore del mestiere SDR. Il modulo 9 ti dà il **processo strutturato** PVJets per qualificare un lead — dalle prime informazioni da raccogliere fino al passaggio al broker. Non è una procedura "burocratica": è il filtro che protegge te, il broker e l'azienda dai lead non solidi e dalle frodi.
+
+I principi guida che attraversano tutto:
+
+1. **Mai sacrificare la due diligence per la velocità di risposta**
+2. **Ogni lead è un potenziale cliente ma anche un potenziale rischio**
+3. **Se qualcosa sembra troppo bello per essere vero, probabilmente lo è**
+4. **Documentare TUTTO in Salesforce**: ogni chiamata, email, WhatsApp
+5. **In caso di dubbio, escalare sempre** al Team Lead o al broker senior
+
+## Le 5 fasi del flusso Salesforce
+
+Ogni lead PVJets attraversa cinque fasi, in ordine. Ognuna ha obiettivi e criteri di uscita precisi:
+
+| # | Fase | Obiettivo | Criterio di uscita |
+|---|---|---|---|
+| 1 | **Assigned** | Presa in carico + screening anti-scam iniziale | Lead assegnato, screening superato |
+| 2 | **1st Contact** | Stabilire il primo contatto, raccogliere info base | Risposta ricevuta con info minime |
+| 3 | **2nd Contact** | Approfondire la richiesta + KYC Light | Identità verificata, richiesta confermata |
+| 4 | **Price Range Sent** | Inviare fascia di prezzo, valutare reazione | Lead accetta la fascia, vuole procedere |
+| 5 | **Assign to Broker** | Handover strutturato al broker | Broker prende in carico |
+
+**Tempistiche di ciclo**: 48-72 ore per lead inbound caldi. Per outbound (cold prospecting) il ciclo può estendersi fino a 7-10 giorni.
+
+## Info obbligatorie da raccogliere
+
+Prima di passare un lead al broker devi avere **tutti** questi dati registrati in Salesforce:
+
+### Contatto
+- Nome e cognome completo (come da documento ID)
+- Email (no email temporanee tipo mailinator)
+- Numero di telefono con prefisso (verificato attivo)
+- Azienda / Ruolo (se business — cross-check su LinkedIn)
+
+### Volo
+- Aeroporto / città di partenza (ICAO o nome città)
+- Aeroporto / città di arrivo
+- Date richieste (anche solo range)
+- Numero passeggeri (adulti + bambini separati)
+- Tipo viaggio (one-way / round-trip / multi-leg)
+
+### Budget
+- Indicazione di budget o aspettative di prezzo (anche solo fascia)
+- Esperienza precedente con jet privati (first-timer vs repeater) — consigliato
+
+### Identità
+- Documento di identità (passaporto / CI) — **obbligatorio prima del passaggio al broker**
+- Verifica coerenza nome/azienda/profilo online (LinkedIn, sito aziendale)
+
+<Callout type="warning">
+  Senza queste informazioni, NON passi il lead al broker. Punto. Lo fai aspettare in 1st Contact o 2nd Contact finché non le hai. Un broker che riceve un lead incompleto perde tempo e si lamenta giustamente.
+</Callout>
+
+## Lead Scoring — i cinque criteri
+
+Per decidere la **priorità** di gestione, ogni lead va scorato su cinque assi (max 3 punti, min 1 punto, totale 5-15):
+
+| Criterio | ⭐ Alto (3 pt) | ⚠️ Medio (2 pt) | ❌ Basso (1 pt) |
+|---|---|---|---|
+| **Urgenza** | Volo entro 7 giorni | Volo entro 30 giorni | Volo oltre 30gg / data indefinita |
+| **Completezza info** | Tutti i campi compilati | Campi parziali ma essenziali | Solo nome + richiesta generica |
+| **Profilo richiedente** | C-level, HNWI, azienda nota | Professionista verificabile | Profilo non verificabile |
+| **Esperienza** | Ha già volato in privato | Conosce il settore | Prima esperienza assoluta |
+| **Budget** | Allineato/superiore al mercato | Leggermente sotto mercato | Irrealistico o non dichiarato |
+
+**Interpretazione del punteggio**:
+- **13-15 → HOT LEAD**: gestire entro **1 ora**
+- **9-12 → WARM**: entro **4 ore**
+- **5-8 → COLD**: entro **24 ore**
+- **<5 → valutare se procedere o archiviare** con motivazione documentata
+
+## Tempistiche di contatto obbligatorie
+
+| Canale | Primo contatto | Follow-up | Max tentativi |
+|---|---|---|---|
+| Email | Entro 30 min (orario lavorativo) | Ogni 24h | 3 in 7gg |
+| Telefono | Entro 15 min | Ogni 24h, orario diverso | 4 in 5gg |
+| WhatsApp | Entro 15 min | Ogni 12-24h | 3 in 5gg |
+
+**Cadenza follow-up consigliata** se il lead non risponde:
+- **G0**: primo contatto su canale preferito (default: telefono + email)
+- **G1**: secondo tentativo su canale diverso
+- **G2**: terzo tentativo con messaggio di valore aggiunto (empty leg, info tratta)
+- **G4**: quarto e ultimo tentativo cortese
+- **G7**: email di chiusura — archivia lead
+
+## Anti-scam: le quattro tipologie di frode
+
+Il settore è target frequente di truffe. Conosci le quattro categorie:
+
+### A. Frode con carte di credito / pagamenti
+Carte rubate o clonate. Il lead chiede di pagare per terzi o rimborsi su metodi diversi. Può fornire più carte in successione se la prima viene rifiutata.
+
+### B. Furto di identità / Impersonation
+Il lead si spaccia per CEO, celebrità, dirigente. Email simili ma non uguali al dominio aziendale (es. `ceo@pvjets-corp.com` invece di `@pvjets.com`). Profili social credibili ma creati di recente.
+
+### C. Riciclaggio (Money Laundering)
+Pagamenti sproporzionati alla tratta. Fatturazione a entità diverse dal passeggero. Pagamenti da giurisdizioni high-risk. Cancellazioni con rimborso su conto diverso da quello originale.
+
+### D. Advance Fee / Social Engineering
+Lead "interessato" a un volo di alto valore che chiede a TE di anticipare costi. Propone partnership o commissioni. Crea urgenza artificiale per bypassare i controlli.
+
+## Red Flags — i segnali critici
+
+<Callout type="warning">
+  Tre o più red flag simultanee = **escalation immediata** al Team Lead.
+</Callout>
+
+### Red flag CRITICHE — escalare subito
+
+- Il lead **rifiuta** di fornire un documento di identità
+- Email da **dominio sospetto** (gratuito per richieste business di alto valore)
+- Numero di telefono **non corrispondente** al paese dichiarato o non raggiungibile
+- Richiesta di **fatturazione a entità diversa** dal passeggero senza giustificazione
+- **Pressione estrema** per saltare i controlli ("Non ho tempo per queste formalità")
+- Proposta di pagamento in **criptovalute, voucher, metodi non tracciabili**
+- Destinazione verso **paesi sotto sanzioni** (verificare OFAC, EU, UN)
+- Il lead comunica per conto di un passeggero che **non è mai raggiungibile direttamente**
+
+### Yellow flag — approfondire
+
+- Email con dominio gratuito (Gmail, Yahoo) per richieste business di alto valore
+- Profilo LinkedIn assente, recente, o con poche connessioni
+- Informazioni incoerenti tra le comunicazioni
+- Rifiuto di chiamate vocali/video (solo testo)
+- Budget non realistico (troppo alto o troppo basso)
+- Chiede molte info operative senza procedere
+
+## KYC Light — la procedura di verifica identità
+
+Per ogni lead che supera 1st Contact, prima di Price Range Sent devi:
+
+1. **Documento**: copia passaporto/CI. Nome corrisponde, non scaduto, foto coerente.
+2. **Digitale**: cerca su LinkedIn, Google, sito aziendale. Profilo deve esistere e essere coerente.
+3. **Telefonico**: almeno una chiamata vocale o video-call di conferma identità.
+4. **Aziendale (B2B)**: verifica esistenza azienda via registro imprese; verifica ruolo del lead.
+5. **Sanzioni**: nome del lead e dell'azienda non devono comparire su OFAC SDN, EU Consolidated Sanctions List, UN Security Council, FATF High-Risk Jurisdictions.
+
+Strumenti gratuiti utili: **OpenSanctions**, **Sanctions Explorer**.
+
+## Coerenza richiesta-profilo
+
+Quattro segnali di incongruenza che richiedono investigation:
+
+| Segnale | Possibile spiegazione | Azione |
+|---|---|---|
+| Budget dichiarato molto > tratta richiesta | Riciclaggio o testing reazione | Approfondire; escalare |
+| Tratta verso zone di conflitto / paesi sanzionati | Elusione sanzioni | Consultare liste; escalare subito |
+| Richiesta per terzi senza identificare passeggero finale | Frode/riciclaggio | Richiedere ID effettivo; non procedere |
+| Cambio frequente di date, destinazioni, pax | Indecisione o testing | Documentare ogni cambio; verificare coerenza |
+
+## Handover al broker
+
+Un lead può essere passato al broker SOLO se:
+
+- Tutte le info obbligatorie sono in Salesforce
+- KYC Light completato con esito positivo
+- Price Range inviato e accettato
+- Nessuna red flag aperta
+- Responsività adeguata (almeno "Reattivo")
+
+**Scheda handover** da compilare in Salesforce:
+
+- Riepilogo richiesta (tratta, date, pax, tipo, esigenze speciali)
+- Profilo cliente (nome, azienda, ruolo, esperienza)
+- Budget e aspettative + reazione al price range
+- Stato verifica identità (esito KYC Light)
+- Note comunicazione (canale preferito, orari, tono)
+- Red/yellow flag rilevate e come gestite
+- Storico interazioni
+- Raccomandazioni al broker
+
+Il broker deve avere **tutto il contesto** per continuare la conversazione senza che il cliente debba ripetere informazioni.
+
+## Quando escalare
+
+Sempre, se almeno una di queste è vera:
+
+- Tre o più red flag simultanee
+- Match su lista sanzioni
+- Sospetto frode pagamento
+- Tratta verso paesi alto rischio / sanzioni
+- Lead aggressivo o minaccioso quando chiedi verifiche
+- **Qualsiasi situazione in cui non ti senti sicuro a procedere** (questo è esplicito nel SOP — la sicurezza personale + procedurale è prioritaria)
+
+**Come escalare**:
+1. **Documenta** in Salesforce ogni red flag con data e dettagli
+2. **Comunica** al Team Lead via canale interno con riepilogo
+3. **Sospendi** la conversazione fino a indicazione
+4. **Non allarmare il lead**: usa formule neutre tipo "stiamo finalizzando le verifiche interne"
+
+## Sintesi per il quotidiano
+
+Tre cose da ricordare ogni giorno:
+
+1. **Le 5 fasi sono lineari**: non saltare un passaggio per accelerare
+2. **Le red flag sono cumulative**: 1-2 = approfondisci; 3+ = escalation immediata
+3. **In caso di dubbio, escala**: il Team Lead esiste per quello, non sei solo
+
+Il modulo 10 entra nello stile e nei template di comunicazione — soprattutto WhatsApp, che è il canale più frequente per il primo contatto in PVJets.

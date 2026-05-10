@@ -693,7 +693,104 @@
       "tags": ["aircraft", "comparison"]
     }
   ],
-  "lead-qualification": [],
+  "lead-qualification": [
+    {
+      "id": "f-lq-001",
+      "front": "Le 5 fasi Salesforce",
+      "back": "Assigned → 1st Contact → 2nd Contact → Price Range Sent → Assign to Broker. Lineari, mai saltare.",
+      "tags": ["sdr", "process"]
+    },
+    {
+      "id": "f-lq-002",
+      "front": "Tempistica ciclo lead inbound caldo",
+      "back": "48-72 ore dall'Assigned all'Assign to Broker. Outbound: 7-10 giorni.",
+      "tags": ["sdr", "process"]
+    },
+    {
+      "id": "f-lq-003",
+      "front": "Lead Scoring — i 5 criteri",
+      "back": "Urgenza, Completezza info, Profilo richiedente, Esperienza, Budget. Ogni criterio: 1-3 punti. Totale 5-15.",
+      "tags": ["sdr", "scoring"]
+    },
+    {
+      "id": "f-lq-004",
+      "front": "HOT / WARM / COLD lead",
+      "back": "13-15 punti = HOT (entro 1h) · 9-12 = WARM (entro 4h) · 5-8 = COLD (entro 24h) · <5 = valutare archiviazione.",
+      "tags": ["sdr", "scoring"]
+    },
+    {
+      "id": "f-lq-005",
+      "front": "Tempistiche di primo contatto",
+      "back": "Email: 30 min · Telefono: 15 min · WhatsApp: 15 min. Tutto in orario lavorativo. Max tentativi: 3-4 in 5-7 giorni.",
+      "tags": ["sdr", "responsiveness"]
+    },
+    {
+      "id": "f-lq-006",
+      "front": "Cadenza follow-up",
+      "back": "G0 primo contatto · G1 canale diverso · G2 messaggio con valore · G4 ultimo cortese · G7 email chiusura/archivia.",
+      "tags": ["sdr", "process"]
+    },
+    {
+      "id": "f-lq-007",
+      "front": "4 tipologie di frode",
+      "back": "A) Carte rubate · B) Furto identità/Impersonation · C) Riciclaggio · D) Advance Fee/Social Engineering.",
+      "tags": ["fraud"]
+    },
+    {
+      "id": "f-lq-008",
+      "front": "Red flag CRITICA",
+      "back": "Rifiuto documento ID · dominio sospetto · telefono incoerente · fatturazione a terzi · pressione per saltare controlli · cripto · paesi sanzionati · pax mai raggiungibile.",
+      "tags": ["fraud", "redflags"]
+    },
+    {
+      "id": "f-lq-009",
+      "front": "Yellow flag",
+      "back": "Email Gmail per business · LinkedIn assente/recente · info incoerenti · solo testo (no chiamate) · budget irrealistico · molte info ma niente acquisto.",
+      "tags": ["fraud", "redflags"]
+    },
+    {
+      "id": "f-lq-010",
+      "front": "Soglia escalation Team Lead",
+      "back": "3 o più red flag CRITICHE simultanee = escalation IMMEDIATA. 1-2 = approfondire prima di escalare.",
+      "tags": ["fraud", "escalation"]
+    },
+    {
+      "id": "f-lq-011",
+      "front": "KYC Light — i 5 step",
+      "back": "1) Documento ID · 2) Verifica digitale (LinkedIn, Google, sito) · 3) Chiamata voice/video · 4) Verifica aziendale (B2B) · 5) Screening sanzioni (OFAC/EU/UN/FATF).",
+      "tags": ["kyc"]
+    },
+    {
+      "id": "f-lq-012",
+      "front": "Liste di sanzioni di riferimento",
+      "back": "OFAC SDN List (USA) · EU Consolidated Sanctions · UN Security Council · FATF High-Risk Jurisdictions. Tool: OpenSanctions, Sanctions Explorer.",
+      "tags": ["kyc", "sanctions"]
+    },
+    {
+      "id": "f-lq-013",
+      "front": "Info OBBLIGATORIE per handover broker",
+      "back": "Nome+cognome · email valida · telefono+prefisso · azienda/ruolo (B2B) · partenza · arrivo · date · pax · tipo viaggio · budget · documento ID · KYC Light completo.",
+      "tags": ["sdr", "handover"]
+    },
+    {
+      "id": "f-lq-014",
+      "front": "Scheda handover broker",
+      "back": "Riepilogo richiesta · profilo cliente · budget+aspettative · stato KYC · note comunicazione · red/yellow flag · storico interazioni · raccomandazioni.",
+      "tags": ["sdr", "handover"]
+    },
+    {
+      "id": "f-lq-015",
+      "front": "Comunicazione al lead durante verifica",
+      "back": "MAI dire che è sotto verifica anti-frode. Usare 'stiamo finalizzando le verifiche interne' o simili. Se vera frode → sparisce. Se cliente vero → lo offendi.",
+      "tags": ["sdr", "escalation"]
+    },
+    {
+      "id": "f-lq-016",
+      "front": "Quando in dubbio cosa fai?",
+      "back": "ESCALI. Il Team Lead esiste apposta. Sospendi conversazione, documenta in Salesforce, contatta Team Lead via canale interno, aspetta indicazione prima di procedere.",
+      "tags": ["sdr", "escalation"]
+    }
+  ],
   "whatsapp-communication": [],
   "scenarios": []
 }
