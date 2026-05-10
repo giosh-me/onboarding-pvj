@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { routing } from '@/lib/i18n/routing'
 import { Header } from '@/components/shared/Header'
 import { Footer } from '@/components/shared/Footer'
+import { ActiveTimeTracker } from '@/components/shared/ActiveTimeTracker'
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
@@ -21,6 +22,7 @@ export default async function LocaleLayout({
   setRequestLocale(locale)
   return (
     <NextIntlClientProvider>
+      <ActiveTimeTracker />
       <Header />
       <main className="mx-auto max-w-[960px] px-6 py-12 min-h-[60vh]">
         {children}
