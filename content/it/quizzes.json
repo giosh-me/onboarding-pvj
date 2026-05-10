@@ -198,7 +198,82 @@
       "source": "company_profile.pdf p.6"
     }
   ],
-  "global-reach": [],
+  "global-reach": [
+    {
+      "id": "q-gr-001",
+      "type": "mcq",
+      "question": "Quanti aeromobili sono accessibili nel network globale PVJets?",
+      "options": ["3.600+", "300", "150", "10.000+"],
+      "correct_index": 0,
+      "explanation": "Il company profile cita 3.600+ aeromobili accessibili via On-Demand Charter — è la dimensione del network di operatori partner.",
+      "source": "company_profile.pdf p.8"
+    },
+    {
+      "id": "q-gr-002",
+      "type": "mcq",
+      "question": "Quali sono le tre macro-aree in cui il company profile organizza la presenza PVJets?",
+      "options": [
+        "Europa, Americas, Global",
+        "Italia, Europa, Mondo",
+        "Eu, Americas, Asia",
+        "Schengen, US, Asia-Pacific"
+      ],
+      "correct_index": 0,
+      "explanation": "Le tre macro-aree ufficiali sono Europa (la base), Americas e Global (il resto del mondo).",
+      "source": "company_profile.pdf p.18-19"
+    },
+    {
+      "id": "q-gr-003",
+      "type": "mcq",
+      "question": "Una rotta Milano → Mykonos in luglio. Cosa va segnalato all'handoff con il broker?",
+      "options": [
+        "Peak season — verificare slot",
+        "Niente, è una rotta standard",
+        "Solo il numero di passeggeri",
+        "Che il cliente è italiano"
+      ],
+      "correct_index": 0,
+      "explanation": "Mykonos a luglio è destinazione stagionale in alto picco. Segnalare 'peak season — verificare slot' è il segnale che ci si aspetta per dare priorità al booking.",
+      "source": "company_profile.pdf p.18"
+    },
+    {
+      "id": "q-gr-004",
+      "type": "mcq",
+      "question": "Quale categoria di aircraft serve per coprire fino a 2-3 ore di volo (es. Milano-Mykonos)?",
+      "options": ["Super Light", "Heavy Jet", "VIP Airliner", "Ultra Long Range"],
+      "correct_index": 0,
+      "explanation": "Il Super Light copre 2-3 ore di volo, ideale per rotte intra-Europa medie come Milano-Mykonos. Range tipico 3.500 km, 6-8 pax.",
+      "source": "company_profile.pdf p.10-11"
+    },
+    {
+      "id": "q-gr-005",
+      "type": "mcq",
+      "question": "Quale categoria si usa tipicamente per Milano → Sydney (oltre 8 ore di volo)?",
+      "options": [
+        "Ultra Long Range",
+        "Super Midsize",
+        "Super Light",
+        "Helicopter"
+      ],
+      "correct_index": 0,
+      "explanation": "Ultra Long Range copre oltre 8 ore (e ~13.000 km di range). È la categoria intercontinentale con cabine 14-16 pax (es. G650ER, Global 7500, Falcon 8X).",
+      "source": "company_profile.pdf p.10, p.16"
+    },
+    {
+      "id": "q-gr-006",
+      "type": "mcq",
+      "question": "Qual è il ruolo di Innsbruck nella mappa PVJets?",
+      "options": [
+        "Hub leisure invernale (Alpi, stagione sci)",
+        "Hub finanziario europeo",
+        "Bridge Europa-Medio Oriente",
+        "Sede legale di PVJets"
+      ],
+      "correct_index": 0,
+      "explanation": "Innsbruck è la destinazione di picco invernale (Alpi, sci). Stesso pattern stagionale di Mykonos/Ibiza ma sull'asse inverno-estate.",
+      "source": "company_profile.pdf p.18"
+    }
+  ],
   "charter-membership": [],
   "fleet": [],
   "sustainability": [],

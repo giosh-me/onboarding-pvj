@@ -147,7 +147,68 @@
       "tags": ["sustainability"]
     }
   ],
-  "global-reach": [],
+  "global-reach": [
+    {
+      "id": "f-gr-001",
+      "front": "3.600+ aeromobili",
+      "back": "Dimensione del network globale di operatori partner accessibili via PVJets On-Demand Charter.",
+      "tags": ["network"]
+    },
+    {
+      "id": "f-gr-002",
+      "front": "Le tre macro-aree PVJets",
+      "back": "Europa (base operativa) · Americas (NY, LA, Miami, Rio, Buenos Aires) · Global (Dubai, Riyad, Sydney, Johannesburg, Singapore).",
+      "tags": ["geography"]
+    },
+    {
+      "id": "f-gr-003",
+      "front": "Hub europei principali PVJets",
+      "back": "Milano, Parigi, Ginevra, Londra, Zurigo, Madrid, Vienna, Atene, Mykonos, Ibiza, Mallorca, Innsbruck, Istanbul, Lubiana, Varsavia.",
+      "tags": ["geography", "europe"]
+    },
+    {
+      "id": "f-gr-004",
+      "front": "Empty Leg",
+      "back": "Volo di riposizionamento già programmato venduto a tariffa ridotta. PVJets ne ha distribuiti su tutto il network — sempre da menzionare a clienti budget-sensitive con flessibilità di date.",
+      "tags": ["services", "pricing"]
+    },
+    {
+      "id": "f-gr-005",
+      "front": "Range Super Light",
+      "back": "2-3 ore di volo, 6-8 pax, ~3.500 km. Esempi: Citation XLS, Learjet 75, Pilatus PC-24, Phenom 300, Learjet 45.",
+      "tags": ["aircraft", "range"]
+    },
+    {
+      "id": "f-gr-006",
+      "front": "Range Midsize",
+      "back": "3-4 ore, 7-9 pax, ~4.000 km. Esempi: Hawker 750XP/800, Praetor 500, Citation VI, Learjet 60XR.",
+      "tags": ["aircraft", "range"]
+    },
+    {
+      "id": "f-gr-007",
+      "front": "Range Heavy Jet",
+      "back": "5-7 ore, 10-12 pax, ~7.400 km. Esempi: Challenger 604/850, Legacy 650, Falcon 2000LX, Gulfstream G-IV. Tipico per transatlantiche.",
+      "tags": ["aircraft", "range"]
+    },
+    {
+      "id": "f-gr-008",
+      "front": "Range Ultra Long Range",
+      "back": "Oltre 8 ore, 14-16 pax, ~13.000 km. Esempi: Falcon 8X, Global 7500, Global Express XRS, G650ER, G700. Categoria intercontinentale.",
+      "tags": ["aircraft", "range"]
+    },
+    {
+      "id": "f-gr-009",
+      "front": "Destinazioni leisure stagionali estate",
+      "back": "Mykonos (luglio), Ibiza (agosto), Mallorca, Atene/isole. Picco di domanda → segnalare 'peak season, verificare slot' al broker.",
+      "tags": ["seasonal"]
+    },
+    {
+      "id": "f-gr-010",
+      "front": "Destinazioni stagionali inverno",
+      "back": "Innsbruck (Alpi, sci, dicembre-gennaio), Cortina via aeroporto VCE/Treviso. Picco invernale → stesso flag 'peak season' del template estivo.",
+      "tags": ["seasonal"]
+    }
+  ],
   "charter-membership": [],
   "fleet": [],
   "sustainability": [],
