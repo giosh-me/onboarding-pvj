@@ -549,7 +549,110 @@
       "source": "knowledge generale aviation industry"
     }
   ],
-  "private-aviation-market": [],
+  "private-aviation-market": [
+    {
+      "id": "q-pm-001",
+      "type": "mcq",
+      "question": "Quali sono i quattro attori del mercato del private aviation?",
+      "options": [
+        "Owner, Operator, Broker, Charterer",
+        "Pilota, Operatore, Cliente, Hostess",
+        "Banca, Aircraft, Cliente, Insurance",
+        "Founder, Investor, Pilot, Client"
+      ],
+      "correct_index": 0,
+      "explanation": "Owner (proprietario), Operator (gestisce operativamente con AOC), Broker (intermedia, no AOC), Charterer (cliente che noleggia il singolo volo).",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-pm-002",
+      "type": "mcq",
+      "question": "PVJets è quale di questi attori?",
+      "options": ["Broker", "Operator", "Owner", "Air carrier"],
+      "correct_index": 0,
+      "explanation": "PVJets è un broker. Non possiede aeromobili, non ha AOC. Intermedia tra cliente e operator partner.",
+      "source": "company_profile.pdf p.19 (disclaimer)"
+    },
+    {
+      "id": "q-pm-003",
+      "type": "mcq",
+      "question": "Cos'è un AOC?",
+      "options": [
+        "Air Operator Certificate — la certificazione che autorizza un operator a operare aircraft commercialmente",
+        "Aircraft Owner Certificate — il documento di proprietà",
+        "Annual Operating Cost — il costo medio operativo",
+        "Aviation Operations Center — il centro di controllo a terra"
+      ],
+      "correct_index": 0,
+      "explanation": "L'AOC (Air Operator Certificate) è la certificazione regolamentare che distingue un operator (autorizzato) da un broker (non operator).",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-pm-004",
+      "type": "mcq",
+      "question": "Qual è la differenza tra HNWI e UHNWI?",
+      "options": [
+        "HNWI: patrimonio investibile sopra ~1M USD; UHNWI: sopra ~30M USD",
+        "Solo geografica: H = europei, U = americani",
+        "HNWI = privato, UHNWI = aziendale",
+        "Non c'è differenza"
+      ],
+      "correct_index": 0,
+      "explanation": "HNWI ha la soglia ~1M USD di asset investibili; UHNWI è il segmento sopra ~30M USD. Differenza patrimoniale, non geografica.",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-pm-005",
+      "type": "mcq",
+      "question": "Cos'è un 'positioning flight' (o ferry flight)?",
+      "options": [
+        "Volo di riposizionamento dell'aircraft per portarlo al punto di partenza richiesto dal cliente",
+        "Volo a vuoto per addestramento",
+        "Volo di test dopo manutenzione",
+        "Volo dimostrativo per vendita"
+      ],
+      "correct_index": 0,
+      "explanation": "Il positioning/ferry è il riposizionamento dell'aircraft. È un costo per il broker che NON viene caricato direttamente al cliente.",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-pm-006",
+      "type": "mcq",
+      "question": "Cos'è un FBO?",
+      "options": [
+        "Fixed-Base Operator — l'handler che gestisce a terra l'aircraft (rifornimento, hangaraggio, accoglienza pax)",
+        "Flight Booking Officer — il broker tipo PVJets",
+        "First Boarding Operator — il primo passeggero che imbarca",
+        "Federal Bureau of Operations — autorità di regolamentazione"
+      ],
+      "correct_index": 0,
+      "explanation": "L'FBO è l'handler aeroportuale che fa hangaraggio, rifornimento, accoglienza pax. Esempi: Signature, Universal Aviation, ExecuJet.",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-pm-007",
+      "type": "mcq",
+      "question": "Cos'è il 'fractional ownership'?",
+      "options": [
+        "Modello commerciale in cui il cliente compra una frazione di un jet (es. 1/16) e ottiene un certo numero di ore/anno",
+        "Il jet è diviso letteralmente in pezzi",
+        "Sconto in base alla frequenza di volo",
+        "Solo per voli intercontinentali"
+      ],
+      "correct_index": 0,
+      "explanation": "Operatori dominanti: NetJets, VistaJet, Flexjet. Modello costoso ma con servizio molto standardizzato. Concorrente diretto del PVJets Club per UHNWI ricorrenti.",
+      "source": "knowledge generale"
+    },
+    {
+      "id": "q-pm-008",
+      "type": "mcq",
+      "question": "Cosa significa l'abbreviazione 'pax' nei messaggi/handoff?",
+      "options": ["Passengers (passeggeri)", "Pacific Time", "Pax Romana, codice operatore", "Paid in advance"],
+      "correct_index": 0,
+      "explanation": "Pax = passeggeri. Standard di settore aviazione. Lo userai sempre nei brief broker.",
+      "source": "knowledge generale"
+    }
+  ],
   "aircraft-types": [],
   "lead-qualification": [],
   "whatsapp-communication": [],

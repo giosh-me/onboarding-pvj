@@ -437,7 +437,128 @@
       "tags": ["sdr", "objections"]
     }
   ],
-  "private-aviation-market": [],
+  "private-aviation-market": [
+    {
+      "id": "f-pm-001",
+      "front": "Owner",
+      "back": "Proprietario dell'aeromobile (individuo, società, fondo). Compra il jet, paga manutenzione e equipaggio. Non è detto che lo gestisca operativamente.",
+      "tags": ["market", "actors"]
+    },
+    {
+      "id": "f-pm-002",
+      "front": "Operator",
+      "back": "Chi gestisce operativamente un jet — equipaggio, manutenzione, slot, navigazione. Ha l'AOC che lo autorizza a operare commercialmente.",
+      "tags": ["market", "actors"]
+    },
+    {
+      "id": "f-pm-003",
+      "front": "Broker",
+      "back": "Intermediario tra cliente e operator. Non possiede aircraft, non ha AOC. Ha network e capacità contrattuale. PVJets è broker.",
+      "tags": ["market", "actors"]
+    },
+    {
+      "id": "f-pm-004",
+      "front": "Charterer",
+      "back": "Il cliente finale che noleggia un volo singolo. È chi paga per il singolo trip.",
+      "tags": ["market", "actors"]
+    },
+    {
+      "id": "f-pm-005",
+      "front": "AOC",
+      "back": "Air Operator Certificate. Certificazione regolamentare che autorizza un operator a operare aircraft commercialmente. È ciò che distingue un operator da un broker.",
+      "tags": ["market", "regulation"]
+    },
+    {
+      "id": "f-pm-006",
+      "front": "Executive (segmento)",
+      "back": "Manager/dirigente che usa il privato per lavoro. Voli infrasettimanali, multi-leg, priorità tempo, decisioni spesso via assistant. Loyalty alta se servizio impeccabile.",
+      "tags": ["market", "segments"]
+    },
+    {
+      "id": "f-pm-007",
+      "front": "HNWI",
+      "back": "High Net Worth Individual — patrimonio investibile sopra ~1M USD. Voli leisure, priorità esperienza, sensibilità prezzo presente ma moderata.",
+      "tags": ["market", "segments"]
+    },
+    {
+      "id": "f-pm-008",
+      "front": "UHNWI",
+      "back": "Ultra HNWI — patrimonio sopra ~30M USD. Servizio massimo richiesto, sensibilità prezzo praticamente nulla, spesso passa per family office.",
+      "tags": ["market", "segments"]
+    },
+    {
+      "id": "f-pm-009",
+      "front": "Family Office",
+      "back": "Struttura di asset/lifestyle management che gestisce il patrimonio di una famiglia UHNWI. Spesso è loro il punto di contatto, non il cliente in persona. Cliente sofisticato, contratti rigorosi.",
+      "tags": ["market", "segments"]
+    },
+    {
+      "id": "f-pm-010",
+      "front": "Dry lease",
+      "back": "Noleggio aircraft senza equipaggio — il cliente porta i propri piloti. Raro nel mercato charter di lusso.",
+      "tags": ["market", "models"]
+    },
+    {
+      "id": "f-pm-011",
+      "front": "Wet lease",
+      "back": "Noleggio aircraft con equipaggio. È il modello standard del charter di lusso e di On-Demand PVJets.",
+      "tags": ["market", "models"]
+    },
+    {
+      "id": "f-pm-012",
+      "front": "Fractional ownership",
+      "back": "Cliente compra una frazione di jet (1/16, 1/8, 1/4) e ottiene ore di volo annue. Operatori: NetJets, VistaJet, Flexjet. Concorrente diretto del PVJets Club.",
+      "tags": ["market", "models"]
+    },
+    {
+      "id": "f-pm-013",
+      "front": "Jet card",
+      "back": "Modello prepagato di ore di volo a tariffe fisse (25-100 ore). Operatori: Sentient, Wheels Up. Modello prevalentemente americano.",
+      "tags": ["market", "models"]
+    },
+    {
+      "id": "f-pm-014",
+      "front": "Positioning flight",
+      "back": "Volo di riposizionamento dell'aircraft per portarlo al punto richiesto dal cliente. Costo del broker, NON addebitato direttamente. Sinonimo: ferry flight.",
+      "tags": ["market", "operations"]
+    },
+    {
+      "id": "f-pm-015",
+      "front": "Ferry flight",
+      "back": "Sinonimo di positioning flight. Stesso concetto, due nomi.",
+      "tags": ["market", "operations"]
+    },
+    {
+      "id": "f-pm-016",
+      "front": "FBO",
+      "back": "Fixed-Base Operator. Handler aeroportuale: rifornimento, hangaraggio, accoglienza pax, dogana. Esempi: Signature, Universal, ExecuJet.",
+      "tags": ["market", "operations"]
+    },
+    {
+      "id": "f-pm-017",
+      "front": "Slot",
+      "back": "Permesso di decollo/atterraggio in una specifica finestra oraria. Su aeroporti congestionati (Linate, Heathrow, Innsbruck inverno) sono scarsi e prezzati. PVJets vende il fatto di avere accesso.",
+      "tags": ["market", "operations"]
+    },
+    {
+      "id": "f-pm-018",
+      "front": "Handling",
+      "back": "Servizi a terra forniti dall'FBO. Comprende rifornimento, push-back, dogana, accoglienza pax, transfer in aeroporto.",
+      "tags": ["market", "operations"]
+    },
+    {
+      "id": "f-pm-019",
+      "front": "De-icing",
+      "back": "Sghiacciamento aircraft prima del decollo in inverno. Costo extra significativo a Innsbruck/Salisburgo/CDG-Le Bourget di gennaio. Su Club è incluso, su On-Demand no.",
+      "tags": ["market", "operations"]
+    },
+    {
+      "id": "f-pm-020",
+      "front": "Pax",
+      "back": "Passengers — passeggeri. Standard di settore. Lo userai in tutti i brief broker.",
+      "tags": ["market", "vocabulary"]
+    }
+  ],
   "aircraft-types": [],
   "lead-qualification": [],
   "whatsapp-communication": [],
