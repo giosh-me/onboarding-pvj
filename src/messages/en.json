@@ -1,0 +1,15 @@
+{
+  "Common": {
+    "appName": "PVJets — SDR Onboarding",
+    "comingSoon": "Coming soon",
+    "comingSoonBody": "The onboarding journey will be available shortly."
+  },
+  "Header": {
+    "dashboardLink": "Dashboard",
+    "glossaryLink": "Glossary",
+    "summaryLink": "Summary"
+  },
+  "Footer": {
+    "copyright": "PVJets — internal use"
+  }
+}
