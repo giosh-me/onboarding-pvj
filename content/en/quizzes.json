@@ -3,33 +3,1029 @@
     {
       "id": "q-w-001",
       "type": "mcq",
-      "question": "What is the PVJets motto?",
+      "question": "What is the official PVJets motto?",
       "options": ["Fly Private Every Time", "Always Fly Higher", "Best in Sky", "Travel Like a King"],
       "correct_index": 0,
-      "explanation": "The official motto is 'Fly Private Every Time'."
+      "explanation": "The motto is 'Fly Private Every Time' — it's the promise: for the client, flying private is the default choice, not an exception.",
+      "source": "company_profile.pdf p.1"
     },
     {
       "id": "q-w-002",
       "type": "mcq",
-      "question": "How is PVJets' identity described?",
+      "question": "Who signs the welcome message in the PVJets company profile?",
+      "options": ["Marco Vitali, Co-Founder & President Voyage Jets", "Astrid Assouad, SDR", "Gabriele Rossi, Lead Broker", "An anonymous founders' board"],
+      "correct_index": 0,
+      "explanation": "The message is signed by Marco Vitali, Co-Founder and President of Voyage Jets.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-003",
+      "type": "mcq",
+      "question": "How is PVJets' identity described in the company profile?",
       "options": [
-        "Italian company with Swiss precision",
-        "Swiss company with Italian flexibility",
-        "French-Italian joint venture",
-        "American operator in Europe"
+        "An Italian company with Swiss excellence at its core",
+        "A Swiss company with Italian flexibility",
+        "A French-Italian joint venture",
+        "An American operator with European base"
       ],
       "correct_index": 0,
-      "explanation": "PVJets is an Italian company with Swiss precision."
+      "explanation": "Official identity: 'an Italian company with Swiss excellence at its core' — Italian roots, Swiss operational excellence.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-004",
+      "type": "mcq",
+      "question": "What two types of clients does PVJets primarily serve?",
+      "options": [
+        "Executives and HNWI",
+        "Only corporate executives",
+        "Only luxury tourists",
+        "Commercial airlines"
+      ],
+      "correct_index": 0,
+      "explanation": "Welcome message mission: enable executives and HNWIs to fly consistently with fair pricing and impeccable service.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-005",
+      "type": "mcq",
+      "question": "From what kind of institutions do PVJets brokers and founders come from?",
+      "options": [
+        "Top Swiss private aviation institutions",
+        "Top US commercial airlines",
+        "European startup accelerators",
+        "Government aviation agencies"
+      ],
+      "correct_index": 0,
+      "explanation": "The Co-Founder's message says explicitly: 'our brokers and founders come from top Swiss private aviation institutions'.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-006",
+      "type": "mcq",
+      "question": "Which two industry associations formally recognise PVJets?",
+      "options": [
+        "EBAA and NBAA",
+        "IATA and ICAO",
+        "FAA and CAA",
+        "EASA and ENAC"
+      ],
+      "correct_index": 0,
+      "explanation": "EBAA (European Business Aviation Association) and NBAA (National Business Aviation Association) recognise PVJets for excellence and reliability.",
+      "source": "company_profile.pdf p.1"
+    },
+    {
+      "id": "q-w-007",
+      "type": "mcq",
+      "question": "Which of these is NOT one of the global services PVJets offers?",
+      "options": [
+        "Booking commercial scheduled flights",
+        "Private Jet Charter",
+        "Helicopter Transfer",
+        "Air Ambulance"
+      ],
+      "correct_index": 0,
+      "explanation": "PVJets does not sell scheduled flights. The six global services are Private Jet Charter, Empty Legs, Group Charter, Helicopter Transfer, Diplomatic Services, and Air Ambulance.",
+      "source": "company_profile.pdf p.5"
+    },
+    {
+      "id": "q-w-008",
+      "type": "mcq",
+      "question": "What is PVJets' legal role with respect to aircraft?",
+      "options": [
+        "Broker — acts as an agent on behalf of clients, does not operate aircraft",
+        "Owner of an in-house fleet",
+        "Airline that sells tickets",
+        "Consultant that does not sign contracts"
+      ],
+      "correct_index": 0,
+      "explanation": "The official disclaimer is clear: 'PVJets s.r.l. is a flight broker [...] acting as an agent on behalf of its clients [...] is neither a contracting nor an indirect carrier.'",
+      "source": "company_profile.pdf p.19"
     }
   ],
-  "mission": [],
-  "global-reach": [],
-  "charter-membership": [],
-  "fleet": [],
-  "sustainability": [],
-  "private-aviation-market": [],
-  "aircraft-types": [],
-  "lead-qualification": [],
-  "whatsapp-communication": [],
-  "scenarios": []
+  "mission": [
+    {
+      "id": "q-mi-001",
+      "type": "mcq",
+      "question": "How many operational core values does PVJets list in the company profile?",
+      "options": ["5", "3", "7", "10"],
+      "correct_index": 0,
+      "explanation": "Five: Swift & Exclusive Access, Dedicated Private Aviation Advisor, 24/7 Global Support, Full Access to our Services, Sustainability Commitment.",
+      "source": "company_profile.pdf p.3"
+    },
+    {
+      "id": "q-mi-002",
+      "type": "mcq",
+      "question": "What does 'Swift & Exclusive Access' mean?",
+      "options": [
+        "Ability to unlock peak-season slots and hard-to-reach destinations through top-tier partnerships",
+        "Speed of the jet used",
+        "Members-only club access",
+        "Online booking faster than competitors"
+      ],
+      "correct_index": 0,
+      "explanation": "PVJets secures peak-season slots and reaches destinations others can't — it's about operational access, not aircraft speed.",
+      "source": "company_profile.pdf p.3"
+    },
+    {
+      "id": "q-mi-003",
+      "type": "mcq",
+      "question": "How many advisors does each PVJets client work with during their journey?",
+      "options": [
+        "One only, dedicated from booking to landing",
+        "A team of 3-4 people in rotation",
+        "A 24/7 call centre",
+        "An AI chatbot"
+      ],
+      "correct_index": 0,
+      "explanation": "The 'Dedicated Private Aviation Advisor' value means a single point of contact from booking to landing.",
+      "source": "company_profile.pdf p.3"
+    },
+    {
+      "id": "q-mi-004",
+      "type": "mcq",
+      "question": "What are the three pillars PVJets stands on?",
+      "options": [
+        "Expertise, Safety, Trust",
+        "Speed, Comfort, Style",
+        "Innovation, Disruption, Scale",
+        "Privacy, Luxury, Discretion"
+      ],
+      "correct_index": 0,
+      "explanation": "Expertise (20+ years of industry knowledge), Safety (operators certified IS-BAO/Argus/Wyvern), Trust (reliability + transparency + premium service commitment).",
+      "source": "company_profile.pdf p.3"
+    },
+    {
+      "id": "q-mi-005",
+      "type": "mcq",
+      "question": "Which three international safety standards does PVJets use to select operators?",
+      "options": [
+        "IS-BAO, Argus, Wyvern",
+        "ISO 9001, IATA, EASA",
+        "FAA Part 135, EASA Part-NCC, AOC",
+        "EBAA, NBAA, ICAO"
+      ],
+      "correct_index": 0,
+      "explanation": "IS-BAO, Argus, and Wyvern are the three reference safety certification standards in international private aviation.",
+      "source": "company_profile.pdf p.6"
+    },
+    {
+      "id": "q-mi-006",
+      "type": "mcq",
+      "question": "What does 'Sustainability Commitment' actually mean for PVJets?",
+      "options": [
+        "Certified CO₂ offset programs + selection of operators with more efficient fleet",
+        "Only electric-powered flights",
+        "Nothing, it's just marketing",
+        "10% off if you take a train for the first leg"
+      ],
+      "correct_index": 0,
+      "explanation": "The commitment includes certified carbon offsets (reforestation, renewable energy, carbon capture) and selection of operators with next-generation aircraft.",
+      "source": "company_profile.pdf p.17"
+    },
+    {
+      "id": "q-mi-007",
+      "type": "mcq",
+      "question": "A client asks 'how safe is the piloting?'. What's the best answer?",
+      "options": [
+        "We work only with operators certified IS-BAO, Argus or Wyvern, depending on client needs",
+        "Yes, don't worry",
+        "The pilots are ours",
+        "Not our responsibility, contact the operator directly"
+      ],
+      "correct_index": 0,
+      "explanation": "The right answer cites the concrete standards PVJets uses to filter operators. It's the way to answer the safety question without generic promises.",
+      "source": "company_profile.pdf p.6"
+    }
+  ],
+  "global-reach": [
+    {
+      "id": "q-gr-001",
+      "type": "mcq",
+      "question": "How many aircraft are accessible in the global PVJets network?",
+      "options": ["3,600+", "300", "150", "10,000+"],
+      "correct_index": 0,
+      "explanation": "The company profile cites 3,600+ aircraft accessible via On-Demand Charter — the size of the partner-operator network.",
+      "source": "company_profile.pdf p.8"
+    },
+    {
+      "id": "q-gr-002",
+      "type": "mcq",
+      "question": "What are the three macro-areas the company profile uses to organise PVJets' presence?",
+      "options": [
+        "Europe, Americas, Global",
+        "Italy, Europe, World",
+        "EU, Americas, Asia",
+        "Schengen, US, Asia-Pacific"
+      ],
+      "correct_index": 0,
+      "explanation": "The three official macro-areas are Europe (the base), Americas, and Global (rest of the world).",
+      "source": "company_profile.pdf p.18-19"
+    },
+    {
+      "id": "q-gr-003",
+      "type": "mcq",
+      "question": "A Milan → Mykonos route in July. What should be flagged in the broker handoff?",
+      "options": [
+        "Peak season — verify slot",
+        "Nothing, it's a standard route",
+        "Only the number of passengers",
+        "That the client is Italian"
+      ],
+      "correct_index": 0,
+      "explanation": "Mykonos in July is a high-peak seasonal destination. Flagging 'peak season — verify slot' is the signal expected to prioritise the booking.",
+      "source": "company_profile.pdf p.18"
+    },
+    {
+      "id": "q-gr-004",
+      "type": "mcq",
+      "question": "Which aircraft category covers up to 2-3 hours of flight time (e.g. Milan-Mykonos)?",
+      "options": ["Super Light", "Heavy Jet", "VIP Airliner", "Ultra Long Range"],
+      "correct_index": 0,
+      "explanation": "Super Light covers 2-3 flight hours, ideal for medium intra-Europe routes like Milan-Mykonos. Range ~3,500 km, 6-8 pax.",
+      "source": "company_profile.pdf p.10-11"
+    },
+    {
+      "id": "q-gr-005",
+      "type": "mcq",
+      "question": "Which category is typically used for Milan → Sydney (over 8 hours of flight)?",
+      "options": [
+        "Ultra Long Range",
+        "Super Midsize",
+        "Super Light",
+        "Helicopter"
+      ],
+      "correct_index": 0,
+      "explanation": "Ultra Long Range covers 8+ hours (and ~13,000 km of range). It's the intercontinental category with 14-16 pax cabins (G650ER, Global 7500, Falcon 8X).",
+      "source": "company_profile.pdf p.10, p.16"
+    },
+    {
+      "id": "q-gr-006",
+      "type": "mcq",
+      "question": "What is Innsbruck's role in the PVJets map?",
+      "options": [
+        "Winter leisure hub (Alps, ski season)",
+        "European financial hub",
+        "Europe-Middle East bridge",
+        "PVJets headquarters"
+      ],
+      "correct_index": 0,
+      "explanation": "Innsbruck is the winter peak destination (Alps, skiing). Same seasonal pattern as Mykonos/Ibiza but on the winter-summer axis.",
+      "source": "company_profile.pdf p.18"
+    }
+  ],
+  "charter-membership": [
+    {
+      "id": "q-cm-001",
+      "type": "mcq",
+      "question": "What is the key difference between On-Demand Charter and PVJets Club?",
+      "options": [
+        "On-Demand is pay-per-flight with no commitment; Club is membership with deposit, requires 6+ months of frequent flying",
+        "On-Demand is free, Club is paid",
+        "On-Demand is only for executives, Club only for HNWI",
+        "On-Demand is for domestic flights, Club for intercontinental"
+      ],
+      "correct_index": 0,
+      "explanation": "On-Demand = pay-per-flight, no deposit, real-time pricing. Club = deposit-based, restricted to frequent flyers of 6+ months.",
+      "source": "company_profile.pdf p.7-8"
+    },
+    {
+      "id": "q-cm-002",
+      "type": "mcq",
+      "question": "How many aircraft are accessible through the On-Demand Charter model?",
+      "options": ["3,600+", "100", "500", "10,000+"],
+      "correct_index": 0,
+      "explanation": "The company profile explicitly cites 3,600+ aircraft accessible worldwide via On-Demand.",
+      "source": "company_profile.pdf p.8"
+    },
+    {
+      "id": "q-cm-003",
+      "type": "mcq",
+      "question": "A new client arrives and says 'I want to join the Club'. What do you reply?",
+      "options": [
+        "The Club is reserved for clients who have been frequent flyers for 6+ months. We can start with On-Demand and review later.",
+        "Of course, I'll send the contract right away.",
+        "I'm sorry, we can't help you.",
+        "The Club costs €50,000/year, would you like to proceed?"
+      ],
+      "correct_index": 0,
+      "explanation": "The Club is not buyable from day-one. It's a post-frequent-flyer programme. The correct answer opens with On-Demand.",
+      "source": "company_profile.pdf p.8"
+    },
+    {
+      "id": "q-cm-004",
+      "type": "mcq",
+      "question": "Which of these is an EXCLUSIVE benefit of PVJets Club vs On-Demand?",
+      "options": [
+        "Guaranteed peak-season slots",
+        "Real-time pricing",
+        "Access to 3,600+ aircraft",
+        "No deposit"
+      ],
+      "correct_index": 0,
+      "explanation": "Only Club has 'guaranteed peak season access'. On On-Demand peak season is 'subject to slots'.",
+      "source": "company_profile.pdf p.9"
+    },
+    {
+      "id": "q-cm-005",
+      "type": "mcq",
+      "question": "What is an Empty Leg?",
+      "options": [
+        "Already-scheduled repositioning flight sold at a reduced rate",
+        "Flight for pax with disabilities",
+        "A cancelled leg",
+        "A flight below minimum capacity"
+      ],
+      "correct_index": 0,
+      "explanation": "Empty Leg = repositioning flight (the aircraft must return to base or reach a subsequent destination) sold at a discount so it doesn't fly empty.",
+      "source": "company_profile.pdf p.5"
+    },
+    {
+      "id": "q-cm-006",
+      "type": "mcq",
+      "question": "Which of these signals does NOT indicate an On-Demand client is a Club candidate?",
+      "options": [
+        "The client constantly asks for aggressive discounts",
+        "High volume: 3+ flights in 3-4 months",
+        "Recurring, predictable routes",
+        "Sensitivity to non-price benefits (concierge, catering)"
+      ],
+      "correct_index": 0,
+      "explanation": "A client who constantly asks for aggressive discounts is PRICE-sensitive, so NOT ideal for Club (which is premium). The three Club signals are volume, predictability, and service appreciation.",
+      "source": "company_profile.pdf p.9"
+    },
+    {
+      "id": "q-cm-007",
+      "type": "mcq",
+      "question": "What is the cancellation policy on On-Demand?",
+      "options": ["Strict", "Flexible", "Free", "Refundable"],
+      "correct_index": 0,
+      "explanation": "On-Demand has 'strict' cancellation. Only Club has 'flexible' cancellation.",
+      "source": "company_profile.pdf p.9"
+    }
+  ],
+  "fleet": [
+    {
+      "id": "q-fl-001",
+      "type": "mcq",
+      "question": "How many aircraft categories does PVJets define in the company profile?",
+      "options": ["6", "3", "8", "10"],
+      "correct_index": 0,
+      "explanation": "Six categories: Super Light, Midsize, Super Midsize, Heavy Jet, Ultra Long Range, VIP Airliner.",
+      "source": "company_profile.pdf p.10-16"
+    },
+    {
+      "id": "q-fl-002",
+      "type": "mcq",
+      "question": "Which category typically covers a Rome-Mykonos (~2 hours flight)?",
+      "options": ["Super Light Jet", "Heavy Jet", "Ultra Long Range", "VIP Airliner"],
+      "correct_index": 0,
+      "explanation": "Super Light = 2-3 hours range, 6-8 pax. The most-requested category for medium intra-Europe routes.",
+      "source": "company_profile.pdf p.11"
+    },
+    {
+      "id": "q-fl-003",
+      "type": "mcq",
+      "question": "Which is the PVJets category with maximum range of 13,000 km and 14-16 pax?",
+      "options": ["Ultra Long Range", "Heavy Jet", "VIP Airliner", "Super Midsize"],
+      "correct_index": 0,
+      "explanation": "Ultra Long Range = 13,000 km, 14-16 pax. Examples: Falcon 8X, Global 7500, G650ER. Non-stop intercontinental category.",
+      "source": "company_profile.pdf p.15"
+    },
+    {
+      "id": "q-fl-004",
+      "type": "mcq",
+      "question": "For a Paris → New York with 8 pax, which category do you typically propose?",
+      "options": [
+        "Heavy Jet (classic transatlantic) or non-stop Ultra Long Range",
+        "Super Light, that's enough",
+        "VIP Airliner, mandatory",
+        "Helicopter transfer"
+      ],
+      "correct_index": 0,
+      "explanation": "PR-NY is the classic transatlantic: Heavy Jet (5-7h, 10-12 pax) is enough. Ultra Long Range is proposed if more cabin or guaranteed non-stop is wanted.",
+      "source": "company_profile.pdf p.14-15"
+    },
+    {
+      "id": "q-fl-005",
+      "type": "mcq",
+      "question": "What does 'BBJ' mean in the VIP Airliner world?",
+      "options": [
+        "Boeing Business Jet — a commercial Boeing converted to private configuration",
+        "Big Body Jet — heavy aircraft category",
+        "Best Branded Jet — industry award",
+        "Boutique Business Jet — a midsize sub-segment"
+      ],
+      "correct_index": 0,
+      "explanation": "BBJ = Boeing Business Jet. Commercial aircraft (e.g. 737) reconfigured with luxury private cabin. Same logic as ACJ (Airbus Corporate Jet).",
+      "source": "company_profile.pdf p.16"
+    },
+    {
+      "id": "q-fl-006",
+      "type": "mcq",
+      "question": "A client asks 'do you recommend Citation X or Challenger 300?'. What do you reply?",
+      "options": [
+        "They're both Super Midsize. I'll let the broker assess availability and pricing for the day",
+        "Challenger 300 for sure, it's better",
+        "Citation X, it's faster",
+        "They're Super Light, fine for short flights"
+      ],
+      "correct_index": 0,
+      "explanation": "Citation X and Challenger 300 are both Super Midsize Jet. The choice between specific models depends on availability/price at that time — the broker decides.",
+      "source": "company_profile.pdf p.13"
+    },
+    {
+      "id": "q-fl-007",
+      "type": "mcq",
+      "question": "For a group charter of 18 people, what's the most appropriate category?",
+      "options": [
+        "VIP Airliner",
+        "Super Midsize",
+        "Ultra Long Range (max 14-16 pax)",
+        "Helicopter"
+      ],
+      "correct_index": 0,
+      "explanation": "VIP Airliner = 20 pax. The category designed for group charter (sports delegations, large corporate teams, choirs, etc.). Ultra Long Range max is 14-16.",
+      "source": "company_profile.pdf p.16"
+    },
+    {
+      "id": "q-fl-008",
+      "type": "mcq",
+      "question": "A client asks 'flight Nice → Monaco for 4 people, 14:00, I'm already in Nice'. What do you propose?",
+      "options": [
+        "Helicopter Transfer (5 minutes vs 1 hour of traffic)",
+        "Super Light Jet",
+        "Group Helicopter, but 8 pax minimum",
+        "Train, it's greener"
+      ],
+      "correct_index": 0,
+      "explanation": "Very short urban routes (Nice-Monaco, Linate-Lugano, etc.) are done by heli. It's faster and PVJets has Helicopter Transfer as a dedicated service.",
+      "source": "company_profile.pdf p.5"
+    }
+  ],
+  "sustainability": [
+    {
+      "id": "q-su-001",
+      "type": "mcq",
+      "question": "What are the three operational levers PVJets uses to address sustainability?",
+      "options": [
+        "Next-gen aircraft, repositioning optimisation (Empty Legs), certified carbon offset",
+        "Electric-powered flights, train + jet, no jets on Sundays",
+        "10% off if you skip the flight, named trees, biofuel",
+        "Only offset, nothing operational"
+      ],
+      "correct_index": 0,
+      "explanation": "PVJets' three levers: more recent and efficient fleet, repositioning optimisation via Empty Legs, and CO₂ compensation via certified programmes.",
+      "source": "company_profile.pdf p.17"
+    },
+    {
+      "id": "q-su-002",
+      "type": "mcq",
+      "question": "Which three types of carbon offset programmes does PVJets use?",
+      "options": [
+        "Reforestation, renewable energy projects, carbon capture solutions",
+        "Highway tolls, electric taxis, internal solar",
+        "Reforestation only",
+        "None, it's just on the company profile"
+      ],
+      "correct_index": 0,
+      "explanation": "The company profile explicitly cites these three: reforestation efforts, renewable energy projects, carbon capture solutions.",
+      "source": "company_profile.pdf p.17"
+    },
+    {
+      "id": "q-su-003",
+      "type": "mcq",
+      "question": "What does 'certified' mean when talking about carbon offset?",
+      "options": [
+        "Programmes are validated by international standards (Verra/VCS, Gold Standard, CDM) that quantify their impact",
+        "PVJets has an internal sustainability certificate",
+        "The client signs a certificate at boarding",
+        "Nothing, it's a marketing word"
+      ],
+      "correct_index": 0,
+      "explanation": "Standards like Verra (VCS), Gold Standard, CDM validate offset programmes by guaranteeing quantification and non-double-counting. That's what differentiates a serious offset from greenwashing.",
+      "source": "general knowledge + company_profile.pdf p.17"
+    },
+    {
+      "id": "q-su-004",
+      "type": "mcq",
+      "question": "A client says 'private jets pollute, why should I use them?'. Best answer?",
+      "options": [
+        "I acknowledge the point, and PVJets addresses the topic with three concrete levers: efficient new fleet, Empty Leg sales to reduce empty flights, and certified CO₂ offset",
+        "Don't worry, it's not that polluting",
+        "All planes pollute, including scheduled ones",
+        "Then take the train"
+      ],
+      "correct_index": 0,
+      "explanation": "The right answer acknowledges the fact + cites the three concrete levers + does not improvise specific numbers. It's the 'acknowledge + concrete + escalate-if-needed' triad.",
+      "source": "company_profile.pdf p.17 + SDR best practice"
+    },
+    {
+      "id": "q-su-005",
+      "type": "mcq",
+      "question": "Selling an Empty Leg is sustainably positive because:",
+      "options": [
+        "It fills an already-scheduled repositioning flight that would otherwise return empty, improving the pax-km × emissions ratio",
+        "It uses different fuel",
+        "The client pays a premium that goes to offset",
+        "The aircraft flies more slowly"
+      ],
+      "correct_index": 0,
+      "explanation": "The flight is already scheduled and will fly anyway. Filling it dramatically improves the emissions/passenger ratio without significantly increasing fuel use.",
+      "source": "company_profile.pdf p.17"
+    },
+    {
+      "id": "q-su-006",
+      "type": "mcq",
+      "question": "How much can SAF (Sustainable Aviation Fuel) reduce lifecycle emissions?",
+      "options": [
+        "Up to ~80% vs traditional fuel",
+        "5%",
+        "200%",
+        "Nothing"
+      ],
+      "correct_index": 0,
+      "explanation": "SAF, certified by international standards, can reduce lifecycle emissions by up to 80%. It's growing fast but still represents less than 1% of global aviation consumption.",
+      "source": "general aviation industry knowledge"
+    }
+  ],
+  "private-aviation-market": [
+    {
+      "id": "q-pm-001",
+      "type": "mcq",
+      "question": "What are the four actors of the private aviation market?",
+      "options": [
+        "Owner, Operator, Broker, Charterer",
+        "Pilot, Operator, Client, Flight Attendant",
+        "Bank, Aircraft, Client, Insurance",
+        "Founder, Investor, Pilot, Client"
+      ],
+      "correct_index": 0,
+      "explanation": "Owner (proprietor), Operator (operates with AOC), Broker (intermediates, no AOC), Charterer (client who rents the single flight).",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-pm-002",
+      "type": "mcq",
+      "question": "Which of these actors is PVJets?",
+      "options": ["Broker", "Operator", "Owner", "Air carrier"],
+      "correct_index": 0,
+      "explanation": "PVJets is a broker. Does not own aircraft, has no AOC. Intermediates between client and partner operators.",
+      "source": "company_profile.pdf p.19 (disclaimer)"
+    },
+    {
+      "id": "q-pm-003",
+      "type": "mcq",
+      "question": "What is an AOC?",
+      "options": [
+        "Air Operator Certificate — the certification that authorises an operator to commercially operate aircraft",
+        "Aircraft Owner Certificate — proof of ownership",
+        "Annual Operating Cost — average operating cost",
+        "Aviation Operations Center — ground control"
+      ],
+      "correct_index": 0,
+      "explanation": "The AOC (Air Operator Certificate) is the regulatory certification that distinguishes an operator (authorised) from a broker (not an operator).",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-pm-004",
+      "type": "mcq",
+      "question": "What's the difference between HNWI and UHNWI?",
+      "options": [
+        "HNWI: investable assets above ~$1M; UHNWI: above ~$30M",
+        "Just geographic: H = European, U = American",
+        "HNWI = private, UHNWI = corporate",
+        "There's no difference"
+      ],
+      "correct_index": 0,
+      "explanation": "HNWI threshold is ~$1M of investable assets; UHNWI is the segment above ~$30M. Wealth difference, not geographic.",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-pm-005",
+      "type": "mcq",
+      "question": "What is a 'positioning flight' (or ferry flight)?",
+      "options": [
+        "Aircraft repositioning flight to bring it to the departure point requested by the client",
+        "Empty training flight",
+        "Test flight after maintenance",
+        "Demo flight for sale"
+      ],
+      "correct_index": 0,
+      "explanation": "Positioning/ferry is aircraft repositioning. It's a cost for the broker that is NOT directly billed to the client.",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-pm-006",
+      "type": "mcq",
+      "question": "What is an FBO?",
+      "options": [
+        "Fixed-Base Operator — the handler who manages aircraft on the ground (refuelling, hangar, pax reception)",
+        "Flight Booking Officer — broker like PVJets",
+        "First Boarding Operator — first passenger to board",
+        "Federal Bureau of Operations — regulatory authority"
+      ],
+      "correct_index": 0,
+      "explanation": "The FBO is the airport handler doing hangar, refuelling, pax reception. Examples: Signature, Universal Aviation, ExecuJet.",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-pm-007",
+      "type": "mcq",
+      "question": "What is 'fractional ownership'?",
+      "options": [
+        "A commercial model where the client buys a fraction of a jet (e.g. 1/16) and gets a certain number of hours/year",
+        "The jet is literally split into pieces",
+        "Discount based on flight frequency",
+        "Only for intercontinental flights"
+      ],
+      "correct_index": 0,
+      "explanation": "Dominant operators: NetJets, VistaJet, Flexjet. Expensive but highly standardised service. Direct competitor of PVJets Club for recurring UHNWIs.",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-pm-008",
+      "type": "mcq",
+      "question": "What does 'pax' mean in messages and handoffs?",
+      "options": ["Passengers", "Pacific Time", "Pax Romana, operator code", "Paid in advance"],
+      "correct_index": 0,
+      "explanation": "Pax = passengers. Aviation industry standard. You'll use it always in broker briefs.",
+      "source": "general knowledge"
+    }
+  ],
+  "aircraft-types": [
+    {
+      "id": "q-at-001",
+      "type": "mcq",
+      "question": "What does 'VLJ' mean?",
+      "options": [
+        "Very Light Jet — entry-level category (4-6 pax, range ~2,000-2,500 km)",
+        "Vehicle Lease Jet",
+        "Vintage Light Jet",
+        "Vertical Landing Jet"
+      ],
+      "correct_index": 0,
+      "explanation": "Very Light Jet = entry category. Examples: Phenom 100, Citation Mustang, HondaJet. Not a PVJets premium category but may appear in client conversation.",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-at-002",
+      "type": "mcq",
+      "question": "A client asks 'Phenom 300 available?'. Which category does it belong to?",
+      "options": ["Super Light Jet", "Midsize", "Super Midsize", "Heavy"],
+      "correct_index": 0,
+      "explanation": "Phenom 300 is one of the most-requested Super Light Jets (6-7 pax, ~3,700 km).",
+      "source": "company_profile.pdf p.11 + knowledge"
+    },
+    {
+      "id": "q-at-003",
+      "type": "mcq",
+      "question": "Which aircraft is the 'best-seller' of the Super Midsize category?",
+      "options": ["Challenger 300/350", "Phenom 100", "Falcon 8X", "Boeing BBJ"],
+      "correct_index": 0,
+      "explanation": "Challenger 300/350 is the absolute Super Midsize best-seller. Wide cabin, 5,700 km range, excellent for Paris-Dubai.",
+      "source": "general knowledge + company_profile.pdf p.13"
+    },
+    {
+      "id": "q-at-004",
+      "type": "mcq",
+      "question": "For a non-stop Rome → New York with 8 pax, which is the most appropriate proposal?",
+      "options": [
+        "Heavy Jet (e.g. Falcon 2000LX, Challenger 605) or Ultra Long Range",
+        "VLJ with technical stop",
+        "Super Light",
+        "Midsize"
+      ],
+      "correct_index": 0,
+      "explanation": "Rome-NY is a classic transatlantic: 8h flight, 8 pax. Heavy is enough (Falcon 2000LX = 7,700 km). ULR is proposed if the client wants superior cabin comfort.",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-at-005",
+      "type": "mcq",
+      "question": "What makes the Pilatus PC-24 distinctive in its segment?",
+      "options": [
+        "Can land on short and unpaved runways, ideal for Alpine destinations",
+        "Has 4 engines instead of 2",
+        "Fully electric",
+        "Has airliner-format cabin"
+      ],
+      "correct_index": 0,
+      "explanation": "Pilatus PC-24 is famous for versatility on regional, short, or unpaved runways. Typical for Alpine access.",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-at-006",
+      "type": "mcq",
+      "question": "What characterises the Falcon 8X relative to other ULRs?",
+      "options": [
+        "It has 3 engines (extra safety on long oceanic legs)",
+        "It's the cheapest",
+        "Only has 4 seats",
+        "It's a VIP Airliner in disguise"
+      ],
+      "correct_index": 0,
+      "explanation": "The Falcon 8X (Dassault) has 3 engines, a feature preferred by some UHNWI clients for redundancy on oceanic flight.",
+      "source": "general knowledge"
+    },
+    {
+      "id": "q-at-007",
+      "type": "mcq",
+      "question": "For a group charter of 18 pax, which category do you definitely exclude?",
+      "options": [
+        "Ultra Long Range (max 14-19 pax, but some are already at the limit)",
+        "VIP Airliner (perfect)",
+        "Heavy Jet (10-12 pax, too small)",
+        "Both Heavy and Super Light should be excluded"
+      ],
+      "correct_index": 3,
+      "explanation": "Heavy (max 12 pax) and Super Light (max 8 pax) are below the threshold. ULR can reach 14-19 but is tight. VIP Airliner (20 pax) is the most relaxed choice. Note: the correct answer is the most complete one.",
+      "source": "company_profile.pdf p.14-16"
+    },
+    {
+      "id": "q-at-008",
+      "type": "mcq",
+      "question": "What's the right way to write the aircraft indication in the broker brief?",
+      "options": [
+        "Expecting Super Midsize (Challenger 300/350 or Praetor 600) — verify availability + client preference on stop vs non-stop",
+        "Challenger 350 mandatory",
+        "Super Midsize",
+        "Let's see what the operator proposes"
+      ],
+      "correct_index": 0,
+      "explanation": "The correct indication combines category + 1-2 likely models + disclaimer + variables the broker must verify with the client. Doesn't promise a model, isn't too generic.",
+      "source": "SDR best practice"
+    }
+  ],
+  "lead-qualification": [
+    {
+      "id": "q-lq-001",
+      "type": "mcq",
+      "question": "How many phases are in the PVJets lead flow in Salesforce?",
+      "options": ["5", "3", "7", "10"],
+      "correct_index": 0,
+      "explanation": "The 5 phases are: Assigned → 1st Contact → 2nd Contact → Price Range Sent → Assign to Broker.",
+      "source": "Lead Qualification SOP §2"
+    },
+    {
+      "id": "q-lq-002",
+      "type": "mcq",
+      "question": "A hot inbound lead should be passed to the broker within how long (end-to-end cycle)?",
+      "options": [
+        "48-72 hours",
+        "1 hour max",
+        "1 week",
+        "30 days"
+      ],
+      "correct_index": 0,
+      "explanation": "48-72h is the SOP-recommended timing for hot inbound leads. Outbound can extend to 7-10 days.",
+      "source": "Lead Qualification SOP §2"
+    },
+    {
+      "id": "q-lq-003",
+      "type": "mcq",
+      "question": "Lead score 14: how is it handled?",
+      "options": [
+        "HOT LEAD — handle within 1 hour",
+        "WARM — within 4 hours",
+        "COLD — within 24 hours",
+        "Archive"
+      ],
+      "correct_index": 0,
+      "explanation": "13-15 points = HOT, handle within 1 hour. 9-12 = WARM (4h), 5-8 = COLD (24h), <5 = consider archiving.",
+      "source": "Lead Qualification SOP §3.2"
+    },
+    {
+      "id": "q-lq-004",
+      "type": "mcq",
+      "question": "How many simultaneous CRITICAL red flags trigger immediate escalation to Team Lead?",
+      "options": ["3 or more", "1", "10", "Never"],
+      "correct_index": 0,
+      "explanation": "Three or more simultaneous CRITICAL red flags = immediate escalation. A single red flag requires investigation but not immediate escalation.",
+      "source": "Lead Qualification SOP §6.2"
+    },
+    {
+      "id": "q-lq-005",
+      "type": "mcq",
+      "question": "Which of these is NOT a CRITICAL red flag?",
+      "options": [
+        "The lead uses Gmail instead of a corporate domain",
+        "The lead refuses to provide ID document",
+        "Payment requested in cryptocurrency",
+        "Route to a sanctioned country"
+      ],
+      "correct_index": 0,
+      "explanation": "Free email for high-value business is a YELLOW flag (investigate), not critical. The other three are critical and require escalation.",
+      "source": "Lead Qualification SOP §6.2"
+    },
+    {
+      "id": "q-lq-006",
+      "type": "mcq",
+      "question": "What does 'KYC Light' mean in PVJets process?",
+      "options": [
+        "5-step identity verification: document, digital, phone, business, sanctions",
+        "Name verification only",
+        "Procedure only for Club clients",
+        "No verification at all"
+      ],
+      "correct_index": 0,
+      "explanation": "KYC Light = 5 steps: 1) ID document, 2) Digital verification (LinkedIn/Google), 3) Voice/video call, 4) Business verification if B2B, 5) Sanctions screening.",
+      "source": "Lead Qualification SOP §6.3"
+    },
+    {
+      "id": "q-lq-007",
+      "type": "mcq",
+      "question": "Which sanctions lists must be consulted?",
+      "options": [
+        "OFAC SDN, EU Consolidated Sanctions, UN Security Council, FATF High-Risk Jurisdictions",
+        "Only OFAC",
+        "Only Italian lists",
+        "None, the broker does it"
+      ],
+      "correct_index": 0,
+      "explanation": "All four: OFAC SDN List (USA), EU Consolidated Sanctions, UN Security Council, FATF High-Risk Jurisdictions. Useful tools: OpenSanctions, Sanctions Explorer.",
+      "source": "Lead Qualification SOP §6.4"
+    },
+    {
+      "id": "q-lq-008",
+      "type": "mcq",
+      "question": "When do you tell a lead they're under anti-fraud verification?",
+      "options": [
+        "Never. Use neutral phrasing like 'we are finalising internal checks'",
+        "Always, for transparency",
+        "Only if explicitly asked",
+        "Only via WhatsApp"
+      ],
+      "correct_index": 0,
+      "explanation": "The SOP is explicit: do NOT alarm the lead. Use neutral phrasing. If it's a real fraud, telling them = they disappear. If it's a real client, you offend them.",
+      "source": "Lead Qualification SOP §9.2"
+    }
+  ],
+  "whatsapp-communication": [
+    {
+      "id": "q-wa-001",
+      "type": "mcq",
+      "question": "What is the PVJets WhatsApp first-contact SLA during business hours?",
+      "options": ["15 minutes", "1 hour", "30 minutes", "4 hours"],
+      "correct_index": 0,
+      "explanation": "15 minutes is the HNWI standard. Beyond 30 min the conversion probability drops significantly. Business hours: 09:00-20:00 CET.",
+      "source": "WhatsApp SOP §4"
+    },
+    {
+      "id": "q-wa-002",
+      "type": "mcq",
+      "question": "How do you open a first WhatsApp message to a PVJets client in English?",
+      "options": [
+        "Good morning Mr. / Mrs. [Surname], this is [Name] from PVJets...",
+        "Hi [Name], this is [My name] PVJets!",
+        "Hey there, writing from PVJets",
+        "Hi! Thanks for the interest"
+      ],
+      "correct_index": 0,
+      "explanation": "The canon is 'Good morning' (never 'Hi' or 'Hey') + Mr./Mrs. + surname + first-person-singular self-introduction.",
+      "source": "WhatsApp SOP §2.2, §4.1"
+    },
+    {
+      "id": "q-wa-003",
+      "type": "mcq",
+      "question": "Which of these terms is FORBIDDEN in the PVJets canon?",
+      "options": [
+        "Package",
+        "Investment",
+        "Curated option",
+        "Bespoke solution"
+      ],
+      "correct_index": 0,
+      "explanation": "'Package' is merchandise-like, consumer-brand language. PVJets sells 'bespoke solution', 'investment', 'curated option'.",
+      "source": "WhatsApp SOP §2.3"
+    },
+    {
+      "id": "q-wa-004",
+      "type": "mcq",
+      "question": "How many qualifying questions do you ask in the first message?",
+      "options": [
+        "One only (route+dates OR route+pax)",
+        "All the SOP-qualifying ones, in cascade",
+        "3-4, in a structured way",
+        "None, I wait for the client to volunteer"
+      ],
+      "correct_index": 0,
+      "explanation": "One single qualifying question. The HNWI client answers a clear question. More questions = paralysis.",
+      "source": "WhatsApp SOP §4.4"
+    },
+    {
+      "id": "q-wa-005",
+      "type": "mcq",
+      "question": "How many aircraft options do you send in the offer message (A2)?",
+      "options": [
+        "Maximum 2",
+        "All available",
+        "At least 5 to give choice",
+        "Just one (simplifies)"
+      ],
+      "correct_index": 0,
+      "explanation": "Never more than 2 options. More options = decision paralysis. Just one option = the client doesn't feel they're choosing.",
+      "source": "WhatsApp SOP §6.2"
+    },
+    {
+      "id": "q-wa-006",
+      "type": "mcq",
+      "question": "Where does the price go in the offer message?",
+      "options": [
+        "In the body of the message. PDF and images AFTER the client has chosen",
+        "In an attached PDF for professionalism",
+        "Only after payment confirmation",
+        "In a PNG image"
+      ],
+      "correct_index": 0,
+      "explanation": "Price goes in the body of the message (e.g. 'investment € 28,500'). Never 'I'll send you a PDF first'. PDF/images are follow-up, not blockers.",
+      "source": "WhatsApp SOP §1.4 principle 7, §6.2"
+    },
+    {
+      "id": "q-wa-007",
+      "type": "mcq",
+      "question": "Path A or Path B: you have a doubt. What do you choose?",
+      "options": [
+        "Path A — always. You can escalate to B later; the reverse is loss of attention",
+        "Path B — more collaborative",
+        "Neither A nor B",
+        "Roll a die"
+      ],
+      "correct_index": 0,
+      "explanation": "If in doubt = Path A. You can always announce a group later ('let me introduce the senior broker'). From group to 1:1 = the client perceives loss of attention.",
+      "source": "WhatsApp SOP §5"
+    },
+    {
+      "id": "q-wa-008",
+      "type": "mcq",
+      "question": "Which closing is CORRECT in English?",
+      "options": [
+        "With my kindest regards, [Name] — PVJets",
+        "Cheers!!",
+        "Talk soon, bye",
+        "Thanks and cheers"
+      ],
+      "correct_index": 0,
+      "explanation": "'With my kindest regards' or 'I remain at your entire disposal' are the canonical closings. Never 'Talk soon' (informal), never 'cheers' (consumer Anglo-Saxon).",
+      "source": "WhatsApp SOP §2.2, §2.4"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "q-sc-001",
+      "type": "mcq",
+      "question": "SCENARIO 1 — A Greek broker you've never worked with writes on WhatsApp: 'Need a Falcon 8X Athens-Dubai for tomorrow morning, 6 pax, VIP client. Send me your best price ASAP, no time for paperwork.' What do you do first?",
+      "options": [
+        "Reply formally asking for the end client's name, ID, and stating that our standard KYC checks are needed before quoting",
+        "Send a market-rate price right away to avoid losing the lead",
+        "Ignore because it's a broker I don't know",
+        "Forward the request to the senior broker without further info"
+      ],
+      "correct_index": 0,
+      "explanation": "Urgency + preemptive rejection of controls ('no time for paperwork') are yellow/red flags. Even with a third-party broker, KYC on the end passenger is required (module 9 §6.2). The right answer opens with qualification + KYC, promises nothing. Module 10 also gives the tone: no 'ASAP' back, formal and composed.",
+      "source": "modules 9 + 10"
+    },
+    {
+      "id": "q-sc-002",
+      "type": "mcq",
+      "question": "SCENARIO 2 — A lady writes from an Italian WhatsApp: 'Good morning, I'd need a flight to Capri for the weekend of May 15 for 6 people. Is it possible?' Italian number, apparently normal profile. What do you do first?",
+      "options": [
+        "Reply within 15 min: 'Good morning Mr/Mrs [from profile if available, otherwise generic], this is [Name] from PVJets. I have received your enquiry. To prepare the most suitable solution may I ask the exact number of passengers, the preferred departure airport, and the return date?'",
+        "Send her a PDF with all our services right away",
+        "Reply after 30-40 minutes so I don't seem desperate",
+        "Ask immediately for the ID document"
+      ],
+      "correct_index": 0,
+      "explanation": "Classic inbound first-contact case. Sub-15-min response, canonical tone (Good morning + Mr/Mrs), first-person singular, one qualifying question with three micro-info items asked politely. KYC arrives at 2nd Contact, not in the first message (modules 9 + 10).",
+      "source": "modules 9 + 10"
+    },
+    {
+      "id": "q-sc-003",
+      "type": "mcq",
+      "question": "SCENARIO 3 — Unknown international number, unrecognised prefix. Message in English: 'Need urgent cargo flight Sofia-Lagos for unmarked containers, can pay cash on arrival. Don't ask too many questions, contact will be only via this number which won't always be reachable. Will refuse video calls.' What do you do?",
+      "options": [
+        "Document the red flags in Salesforce, suspend the conversation, escalate immediately to Team Lead. Don't reply to the client with prices or commitments. If you reply, neutral phrasing ('we are evaluating the request') without alarming",
+        "Ask for client documents",
+        "Send a very high price hoping they'll be discouraged",
+        "Reply that we can't help, directly"
+      ],
+      "correct_index": 0,
+      "explanation": "Five simultaneous CRITICAL red flags (module 9 §6.2): unmarked cargo = possible laundering, cash = untraceable, 'don't ask questions' = pressure to skip controls, contact not always reachable = unidentifiable pax, no video call. Above 3 = immediate escalation. Sofia-Lagos is also a sensitive route. Never alarm the client, never say 'we can't help' (may agitate): neutral phrasing + internal escalation.",
+      "source": "module 9"
+    },
+    {
+      "id": "q-sc-004",
+      "type": "mcq",
+      "question": "SCENARIO 4 — Recurring PVJets client (3 flights with us in the last 4 months). Writes: 'Good morning, we'd need to plan an articulated trip: Rome Linate → London Luton (Tue June 17), London Luton → New York Teterboro (Wed June 18 evening), New York Teterboro → Rome (Fri June 20 evening). 8 passengers, golf bags loaded.' What do you do?",
+      "options": [
+        "Reply formally, recognising the multi-leg pattern and indicating I'll create a dedicated group with the senior broker to handle the articulated quoting. Internally prepare brief: expecting Heavy Jet or Ultra Long Range (for the NY-Rome leg 8h+, Heavy is enough but ULR guarantees non-stop), 8 pax + golf bags manageable. Flag candidate Club: 4th flight in 4 months, complex route, high value.",
+        "Quote three separate flights right away, trying to close fast",
+        "Ignore the frequency and treat as new lead",
+        "Suggest the client book scheduled flights to save money"
+      ],
+      "correct_index": 0,
+      "explanation": "Four right elements: 1) complex multi-leg request → Path B (group with broker, module 10 §5), 2) Heavy/ULR for transatlantic legs (module 8), 3) flag candidate Club because frequent + recurring + high value (module 4 Club signals), 4) formal proactive tone that values the trust of an already-recurring client. Quoting separate flights (B) is myopic; ignoring frequency (C) misses a Club opportunity; suggesting scheduled (D) is out of canon.",
+      "source": "modules 4, 8, 10"
+    }
+  ]
 }

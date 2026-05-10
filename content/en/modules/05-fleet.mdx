@@ -1,9 +1,143 @@
 ---
 slug: fleet
 order: 5
-title: "Our Fleet"
-estimated_minutes: 5
-sources: []
+title: "Our fleet"
+estimated_minutes: 12
+sources: ["pvj_company_profile_3.pdf p.10-16 (Fleet categories + specs)"]
 ---
 
-(Placeholder — real content lands in later phases.)
+# Our fleet
+
+PVJets does not own a fleet itself, but offers aircraft from a network of **3,600+ aircraft** worldwide organised in **six categories**. Each category has different range, pax capacity, comfort level and hourly cost. Recognising at a glance which category fits a request is the **first operational skill** that distinguishes a sharp SDR from a generic one.
+
+You don't need to become an aeronautical engineer. You need to recognise quickly: this route + this number of pax + these bags = most likely category X.
+
+## The six categories
+
+### 1. Super Light Jet
+
+<FleetSpecCard
+  model="Super Light Jet"
+  pax="6/8"
+  range="3,537 km · 2-3 hours of flight"
+  examples={["Citation XLS", "Learjet 75", "Pilatus PC-24", "Phenom 300 I", "Learjet 45"]}
+/>
+
+- Speed: 800 km/h
+- Bags: 6/8 suitcases
+- Crew: 2/3
+
+**When to use it**: intra-Europe trips up to 3 hours (e.g. Milan-Mykonos, Rome-Marrakech, Paris-Madrid). It's the most-requested category in the European market by volume: small groups, contained hourly cost, excellent agility on regional airports.
+
+### 2. Midsize Jet
+
+<FleetSpecCard
+  model="Midsize Jet"
+  pax="7/9"
+  range="4,074 km · 3-4 hours of flight"
+  examples={["Hawker 750XP", "Praetor 500", "Citation VI", "Learjet 60XR", "Hawker 800"]}
+/>
+
+- Speed: 828 km/h
+- Bags: 8 suitcases
+- Crew: 2/3
+
+**When to use it**: routes like Milan-Moscow, Paris-Marrakech, Rome-Tel Aviv. Wider cabin compared to Super Light, a few more pax, range that opens to Eastern Europe and North Africa.
+
+### 3. Super Midsize Jet
+
+<FleetSpecCard
+  model="Super Midsize Jet"
+  pax="8/10"
+  range="4,708 km · 4-5 hours of flight"
+  examples={["Challenger 300", "Gulfstream G280", "Praetor 600", "Citation Latitude", "Citation X"]}
+/>
+
+- Speed: 972 km/h (the fastest category after Ultra Long Range)
+- Bags: 10 suitcases
+- Crew: 2/3
+
+**When to use it**: intermediate flights (Paris-Dubai, Milan-Riyadh, London-New York with technical stop). It's the preferred category for many frequent executives: decent space to work in flight + higher speed.
+
+### 4. Heavy Jet
+
+<FleetSpecCard
+  model="Heavy Jet"
+  pax="10/12"
+  range="7,408 km · 5-7 hours of flight"
+  examples={["Challenger 604", "Challenger 850", "Legacy 650", "Falcon 2000LX", "Gulfstream G-IV"]}
+/>
+
+- Speed: 900 km/h
+- Bags: 10 suitcases
+- Crew: 3
+
+**When to use it**: typical **transatlantic** category (Paris-NY, Milan-NY, London-Miami). Wide cabin with stand-up height, kitchen, lavatory, bed possibility. For long flights with executives who need to work or families who want serious comfort.
+
+### 5. Ultra Long Range
+
+<FleetSpecCard
+  model="Ultra Long Range"
+  pax="14/16"
+  range="13,000 km · over 8 hours of flight"
+  examples={["Falcon 8X", "Global 7500", "Global Express XRS", "Gulfstream G650ER", "Gulfstream G700"]}
+/>
+
+- Speed: 975 km/h
+- Bags: 15 suitcases
+- Crew: 3
+
+**When to use it**: **non-stop intercontinental** routes: Milan-Sydney, Geneva-Singapore, NY-Tokyo. It's the top-of-the-line private jet segment. Multi-zone cabins, fittings comparable to a luxury hotel suite. Hourly cost significantly higher.
+
+### 6. VIP Airliner
+
+<FleetSpecCard
+  model="VIP Airliner"
+  pax="20"
+  range="10,000 km · 6-8 hours of flight"
+  examples={["Lineage 1000", "Boeing BBJ", "BBJ Max 7", "Airbus ACJ 319", "Airbus ACJ 320"]}
+/>
+
+- Speed: 898 km/h
+- Bags: 30 suitcases
+- Crew: 4/5
+
+**When to use it**: VIP Airliner is a **scheduled jet converted to private configuration** (Boeing BBJ = "Boeing Business Jet", ACJ = "Airbus Corporate Jet"). It's used for **group charter** (sports delegations, music groups, large corporate teams, diplomatic processions) and for those who really want airliner-format cabin with luxury fittings.
+
+## Helicopter Transfer
+
+PVJets also serves **helicopter transfers** — typically short city-to-city links or access to destinations with private heliports (yacht in open sea, private villas, resorts with heliport). Specifics on helicopter models are not in the company profile and vary by route — handled case-by-case with the broker.
+
+Typical heli request examples:
+- Nice ↔ Monaco (5 minutes vs an hour of traffic)
+- Milan-Linate ↔ Lugano
+- Lake Como heliport ↔ Linate airport
+- Transfer to Cuore (yacht/villa) from airport
+
+## How to read a request as an SDR
+
+When a message arrives like *"I'd need a flight Rome → New York for 8 people with bags on March 18"*, mentally do this map:
+
+1. **Distance/duration** → Rome-NY ~8 hours → we're in **Heavy Jet** (5-7h tight limit, 8h is borderline) or more likely **Ultra Long Range** non-stop without technical stop
+2. **Pax** → 8 people → cabins OK for both categories (Heavy 10-12, ULR 14-16)
+3. **Bags** → suitcases OK on both
+4. **Likely category** → Heavy Jet with possible technical stop, or Ultra Long Range non-stop
+
+The output you pass to the broker is not "category X". It's: "Rome-NY, 8 pax, March 18, expecting Heavy or ULR — verify availability + client preference on stop vs non-stop". That mid-level synthesis saves the broker time.
+
+<Callout type="warning">
+  Never promise a specific category to the client. The final choice depends on operator availability, slot, day's costs. You signal a "likely indication" to the broker — the broker confirms to the client.
+</Callout>
+
+## Quick summary
+
+| Category | Max range | Pax | Typical case |
+|---|---|---|---|
+| Super Light | ~3,500 km / 2-3h | 6-8 | Intra-Europe |
+| Midsize | ~4,000 km / 3-4h | 7-9 | Extended Europe |
+| Super Midsize | ~4,700 km / 4-5h | 8-10 | Short intercontinental |
+| Heavy Jet | ~7,400 km / 5-7h | 10-12 | Classic transatlantic |
+| Ultra Long Range | ~13,000 km / 8h+ | 14-16 | Non-stop intercontinental |
+| VIP Airliner | ~10,000 km / 6-8h | 20 | Large group |
+
+Module 8 goes into more detail on category differences and specific models. For now this map is enough for routine triage.
