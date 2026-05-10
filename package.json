@@ -12,10 +12,10 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "validate-content": "echo 'validate-content skipped — added in Phase 1'",
+    "validate-content": "tsx scripts/validate-content.ts",
     "extract-sources": "tsx scripts/extract-sources.ts",
     "generate-glossary": "tsx scripts/generate-glossary.ts",
-    "prebuild": "echo 'validate-content skipped — added in Phase 1' && true"
+    "prebuild": "pnpm validate-content"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.0.0",

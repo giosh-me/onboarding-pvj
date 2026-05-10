@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next'
+import path from 'node:path'
 import createMDX from '@next/mdx'
 import createNextIntlPlugin from 'next-intl/plugin'
 
@@ -11,7 +12,15 @@ const withNextIntl = createNextIntlPlugin('./src/lib/i18n/request.ts')
 const nextConfig: NextConfig = {
   pageExtensions: ['ts', 'tsx', 'mdx'],
   experimental: {
-    mdxRs: false, // we use MDX components, not the Rust-only mode
+    mdxRs: false,
+  },
+  webpack: (config) => {
+    config.resolve = config.resolve ?? {}
+    config.resolve.alias = {
+      ...(config.resolve.alias ?? {}),
+      '@/content': path.resolve(process.cwd(), 'content'),
+    }
+    return config
   },
 }
 

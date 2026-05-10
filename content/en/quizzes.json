@@ -1,0 +1,35 @@
+{
+  "welcome": [
+    {
+      "id": "q-w-001",
+      "type": "mcq",
+      "question": "What is the PVJets motto?",
+      "options": ["Fly Private Every Time", "Always Fly Higher", "Best in Sky", "Travel Like a King"],
+      "correct_index": 0,
+      "explanation": "The official motto is 'Fly Private Every Time'."
+    },
+    {
+      "id": "q-w-002",
+      "type": "mcq",
+      "question": "How is PVJets' identity described?",
+      "options": [
+        "Italian company with Swiss precision",
+        "Swiss company with Italian flexibility",
+        "French-Italian joint venture",
+        "American operator in Europe"
+      ],
+      "correct_index": 0,
+      "explanation": "PVJets is an Italian company with Swiss precision."
+    }
+  ],
+  "mission": [],
+  "global-reach": [],
+  "charter-membership": [],
+  "fleet": [],
+  "sustainability": [],
+  "private-aviation-market": [],
+  "aircraft-types": [],
+  "lead-qualification": [],
+  "whatsapp-communication": [],
+  "scenarios": []
+}
