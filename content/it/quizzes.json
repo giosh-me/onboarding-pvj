@@ -103,7 +103,101 @@
       "source": "company_profile.pdf p.19"
     }
   ],
-  "mission": [],
+  "mission": [
+    {
+      "id": "q-mi-001",
+      "type": "mcq",
+      "question": "Quanti sono i 'core values' operativi di PVJets nel company profile?",
+      "options": ["5", "3", "7", "10"],
+      "correct_index": 0,
+      "explanation": "Sono cinque: Swift & Exclusive Access, Dedicated Private Aviation Advisor, 24/7 Global Support, Full Access to our Services, Sustainability Commitment.",
+      "source": "company_profile.pdf p.3"
+    },
+    {
+      "id": "q-mi-002",
+      "type": "mcq",
+      "question": "Cosa significa 'Swift & Exclusive Access'?",
+      "options": [
+        "Capacità di sbloccare slot e destinazioni difficili grazie a partnership top-tier",
+        "Velocità del jet usato",
+        "Accesso esclusivo solo per soci di un club",
+        "Booking online più veloce della concorrenza"
+      ],
+      "correct_index": 0,
+      "explanation": "PVJets ottiene peak-season slots e raggiunge destinazioni che altri non raggiungono — è un valore di accesso operativo, non di velocità del mezzo.",
+      "source": "company_profile.pdf p.3"
+    },
+    {
+      "id": "q-mi-003",
+      "type": "mcq",
+      "question": "Quanti advisor segue ogni cliente PVJets durante il viaggio?",
+      "options": [
+        "Uno solo, dedicato dal booking all'atterraggio",
+        "Un team di 3-4 persone in rotazione",
+        "Un call center 24/7",
+        "Un chatbot AI"
+      ],
+      "correct_index": 0,
+      "explanation": "Il valore 'Dedicated Private Aviation Advisor' significa una sola persona di riferimento dalla prenotazione all'atterraggio.",
+      "source": "company_profile.pdf p.3"
+    },
+    {
+      "id": "q-mi-004",
+      "type": "mcq",
+      "question": "Quali sono i tre pilastri (pillars) dichiarati da PVJets?",
+      "options": [
+        "Expertise, Safety, Trust",
+        "Speed, Comfort, Style",
+        "Innovation, Disruption, Scale",
+        "Privacy, Luxury, Discretion"
+      ],
+      "correct_index": 0,
+      "explanation": "Expertise (vent'anni di settore), Safety (operatori certificati IS-BAO/Argus/Wyvern), Trust (reliability + transparency + premium service commitment).",
+      "source": "company_profile.pdf p.3"
+    },
+    {
+      "id": "q-mi-005",
+      "type": "mcq",
+      "question": "Quali sono i tre standard internazionali di safety con cui PVJets seleziona gli operatori?",
+      "options": [
+        "IS-BAO, Argus, Wyvern",
+        "ISO 9001, IATA, EASA",
+        "FAA Part 135, EASA Part-NCC, AOC",
+        "EBAA, NBAA, ICAO"
+      ],
+      "correct_index": 0,
+      "explanation": "IS-BAO, Argus e Wyvern sono i tre standard di certificazione safety di riferimento per l'aviazione privata internazionale.",
+      "source": "company_profile.pdf p.6"
+    },
+    {
+      "id": "q-mi-006",
+      "type": "mcq",
+      "question": "Cosa significa concretamente 'Sustainability Commitment' per PVJets?",
+      "options": [
+        "Offset CO₂ via programmi certificati + selezione di operatori con flotta più efficiente",
+        "Voli solo a propulsione elettrica",
+        "Niente, è solo marketing",
+        "Sconto del 10% se usi treno per il primo tratto"
+      ],
+      "correct_index": 0,
+      "explanation": "Il commitment include carbon offset certificati (reforestation, renewable energy, carbon capture) e selezione di operatori con next-generation aircraft.",
+      "source": "company_profile.pdf p.17"
+    },
+    {
+      "id": "q-mi-007",
+      "type": "mcq",
+      "question": "Un cliente ti chiede 'siete sicuri sui pilotaggi?'. Qual è la risposta migliore?",
+      "options": [
+        "Lavoriamo solo con operatori certificati IS-BAO, Argus o Wyvern, in base alle esigenze del cliente",
+        "Sì non si preoccupi",
+        "I piloti sono i nostri",
+        "Non è una nostra responsabilità, contatti l'operatore direttamente"
+      ],
+      "correct_index": 0,
+      "explanation": "La risposta corretta cita gli standard concreti che PVJets usa per filtrare gli operatori. È il modo per rispondere alla safety question senza promesse generiche.",
+      "source": "company_profile.pdf p.6"
+    }
+  ],
   "global-reach": [],
   "charter-membership": [],
   "fleet": [],

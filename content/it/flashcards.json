@@ -73,7 +73,80 @@
       "tags": ["sdr", "process"]
     }
   ],
-  "mission": [],
+  "mission": [
+    {
+      "id": "f-mi-001",
+      "front": "Swift & Exclusive Access",
+      "back": "Core value PVJets — capacità di sbloccare slots aeroportuali peak-season e destinazioni difficili grazie a partnership top-tier con operatori e handler.",
+      "tags": ["values"]
+    },
+    {
+      "id": "f-mi-002",
+      "front": "Dedicated Private Aviation Advisor",
+      "back": "Core value PVJets — un solo advisor segue il cliente dal booking all'atterraggio. Niente call center, niente ticketing.",
+      "tags": ["values"]
+    },
+    {
+      "id": "f-mi-003",
+      "front": "24/7 Global Support",
+      "back": "Core value PVJets — copertura H24 reale. Risponde sempre qualcuno, anche notte/weekend/festivi.",
+      "tags": ["values"]
+    },
+    {
+      "id": "f-mi-004",
+      "front": "Full Access to our Services",
+      "back": "Core value PVJets — un solo provider per i sei servizi global (Charter, Empty Legs, Group, Heli, Diplomatic, Air Ambulance). Stesso advisor per tutti i tipi di volo.",
+      "tags": ["values"]
+    },
+    {
+      "id": "f-mi-005",
+      "front": "Sustainability Commitment",
+      "back": "Core value PVJets — carbon offset certificati (reforestation, renewable energy, carbon capture) + preferenza per operatori con flotta efficiente.",
+      "tags": ["values"]
+    },
+    {
+      "id": "f-mi-006",
+      "front": "Expertise (pilastro PVJets)",
+      "back": "20+ anni di settore + global partnership network. Quando un cliente chiede 'qual è la scelta giusta?', PVJets ha una risposta, non una lista di opzioni.",
+      "tags": ["pillars"]
+    },
+    {
+      "id": "f-mi-007",
+      "front": "Safety (pilastro PVJets)",
+      "back": "PVJets seleziona operatori che superano IS-BAO, Argus o Wyvern. Zero compromessi sulla safety.",
+      "tags": ["pillars", "safety"]
+    },
+    {
+      "id": "f-mi-008",
+      "front": "Trust (pilastro PVJets)",
+      "back": "Reliability + transparency + premium service commitment. Mantieni quello che prometti, non nascondi costi né limiti.",
+      "tags": ["pillars"]
+    },
+    {
+      "id": "f-mi-009",
+      "front": "IS-BAO",
+      "back": "International Standard for Business Aircraft Operations. Certificazione internazionale di safety che gli operatori PVJets devono superare.",
+      "tags": ["safety", "standards"]
+    },
+    {
+      "id": "f-mi-010",
+      "front": "Argus",
+      "back": "Argus International — agenzia di safety auditing. Certifica gli operatori sui livelli Gold/Gold Plus/Platinum. Standard usato da PVJets.",
+      "tags": ["safety", "standards"]
+    },
+    {
+      "id": "f-mi-011",
+      "front": "Wyvern",
+      "back": "Wyvern Ltd — altra agenzia di safety auditing per business aviation. Wyvern Wingman è il livello più alto. Standard usato da PVJets.",
+      "tags": ["safety", "standards"]
+    },
+    {
+      "id": "f-mi-012",
+      "front": "Carbon offset",
+      "back": "Compensazione delle emissioni di CO₂ via programmi certificati (reforestation, renewable energy, carbon capture). PVJets li applica come standard, non come opt-in.",
+      "tags": ["sustainability"]
+    }
+  ],
   "global-reach": [],
   "charter-membership": [],
   "fleet": [],
