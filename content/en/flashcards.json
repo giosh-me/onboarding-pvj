@@ -147,7 +147,7 @@
     { "id": "f-lq-016", "front": "When in doubt what do you do?", "back": "ESCALATE. Team Lead exists for that. Pause conversation, document in Salesforce, contact Team Lead via internal channel, wait for guidance before proceeding.", "tags": ["sdr", "escalation"] }
   ],
   "whatsapp-communication": [
-    { "id": "f-wa-001", "front": "WhatsApp first contact SLA", "back": "15 minutes during business hours (09:00-20:00 CET). Beyond 30 min, conversion drops significantly. HNWI standard.", "tags": ["whatsapp", "sla"] },
+    { "id": "f-wa-001", "front": "WhatsApp first contact SLA", "back": "15 minutes during business hours (09-20 CET). Beyond 30 min, conversion drops significantly. HNWI standard.", "tags": ["whatsapp", "sla"] },
     { "id": "f-wa-002", "front": "The 8 HNWI guiding principles", "back": "1) Client sets the pace · 2) Concierge>seller · 3) Every message adds value · 4) Formality is infrastructure · 5) WA isn't email · 6) One question only · 7) Price before PDF · 8) Discretion + audit trail.", "tags": ["whatsapp", "principles"] },
     { "id": "f-wa-003", "front": "Correct Italian opening", "back": "'Buongiorno Dott. / Dott.ssa [Surname], sono [Name] di PVJets'. Never 'Ciao', 'Salve', 'Hi'.", "tags": ["whatsapp", "templates", "it"] },
     { "id": "f-wa-004", "front": "Correct English opening", "back": "'Good morning Mr. / Mrs. [Surname], this is [Name] from PVJets'. Never 'Hi', never 'Hey'.", "tags": ["whatsapp", "templates", "en"] },

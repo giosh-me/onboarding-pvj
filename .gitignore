@@ -47,3 +47,4 @@ extracted/
 # Temporary
 .tmp/
 *.tmp
+test-results/

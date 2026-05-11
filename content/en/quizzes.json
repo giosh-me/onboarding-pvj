@@ -152,7 +152,7 @@
         "Privacy, Luxury, Discretion"
       ],
       "correct_index": 0,
-      "explanation": "Expertise (20+ years of industry knowledge), Safety (operators certified IS-BAO/Argus/Wyvern), Trust (reliability + transparency + premium service commitment).",
+      "explanation": "Expertise (over twenty years in the industry), Safety (operators certified IS-BAO/Argus/Wyvern), Trust (reliability + transparency + premium service commitment).",
       "source": "company_profile.pdf p.3"
     },
     {
@@ -868,7 +868,7 @@
       "question": "What is the PVJets WhatsApp first-contact SLA during business hours?",
       "options": ["15 minutes", "1 hour", "30 minutes", "4 hours"],
       "correct_index": 0,
-      "explanation": "15 minutes is the HNWI standard. Beyond 30 min the conversion probability drops significantly. Business hours: 09:00-20:00 CET.",
+      "explanation": "15 minutes is the HNWI standard. Beyond 30 min the conversion probability drops significantly. Business hours: 09-20 CET.",
       "source": "WhatsApp SOP §4"
     },
     {
