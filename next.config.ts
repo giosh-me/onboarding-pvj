@@ -2,9 +2,14 @@ import type { NextConfig } from 'next'
 import path from 'node:path'
 import createMDX from '@next/mdx'
 import createNextIntlPlugin from 'next-intl/plugin'
+import remarkFrontmatter from 'remark-frontmatter'
+import remarkGfm from 'remark-gfm'
 
 const withMDX = createMDX({
   extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [[remarkFrontmatter, 'yaml'], remarkGfm],
+  },
 })
 
 const withNextIntl = createNextIntlPlugin('./src/lib/i18n/request.ts')
